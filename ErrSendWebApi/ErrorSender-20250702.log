@@ -1,0 +1,405 @@
+2025-07-02 15:05:03.563 +03:00 [FTL] Application startup exception
+System.InvalidOperationException: Cannot resolve scoped service 'ErrSendApplication.Interfaces.ITelegramService' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-07-02 15:05:03.839 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Cannot resolve scoped service 'ErrSendApplication.Interfaces.ITelegramService' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-07-02 15:10:10.082 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-02 15:10:10.227 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-02 15:10:10.248 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-02 15:10:10.250 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-02 15:10:10.251 +03:00 [INF] Hosting environment: Development
+2025-07-02 15:10:10.251 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender/ErrSendWebApi
+2025-07-02 15:10:20.252 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-02 15:10:20.578 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 328.1428ms
+2025-07-02 15:10:20.588 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.css - null null
+2025-07-02 15:10:20.588 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:10:20.590 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger-ui.css - null null
+2025-07-02 15:10:20.605 +03:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-07-02 15:10:20.606 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.css - 200 202 text/css 17.4272ms
+2025-07-02 15:10:20.606 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-02 15:10:20.612 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 23.9393ms
+2025-07-02 15:10:20.616 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:10:20.617 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger-ui-standalone-preset.js - null null
+2025-07-02 15:10:20.621 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-07-02 15:10:20.622 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-07-02 15:10:20.625 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger-ui-standalone-preset.js - 200 229223 text/javascript 8.4547ms
+2025-07-02 15:10:20.625 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger-ui.css - 200 154949 text/css 35.6066ms
+2025-07-02 15:10:20.626 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.js - null null
+2025-07-02 15:10:20.627 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.js - 200 null application/javascript;charset=utf-8 1.0135ms
+2025-07-02 15:10:20.969 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:10:20.980 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/favicon-32x32.png - null null
+2025-07-02 15:10:20.981 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-07-02 15:10:20.981 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/favicon-32x32.png - 200 628 image/png 1.0229ms
+2025-07-02 15:10:21.018 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.6147ms
+2025-07-02 15:10:35.454 +03:00 [INF] Application is shutting down...
+2025-07-02 15:12:29.995 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-02 15:12:30.246 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-02 15:12:30.248 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-02 15:12:30.248 +03:00 [INF] Hosting environment: Development
+2025-07-02 15:12:30.248 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender/ErrSendWebApi
+2025-07-02 15:12:32.603 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-02 15:12:32.764 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 162.3226ms
+2025-07-02 15:12:32.791 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:12:32.830 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-02 15:12:32.833 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 41.6138ms
+2025-07-02 15:12:32.836 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:12:32.931 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:12:33.057 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi). See inner exception
+ ---> System.Collections.Generic.KeyNotFoundException: The given key 'application/json' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ErrSendWebApi.TimeZone.AddTimeAndTimeZoneOperationFilter.Apply(OpenApiOperation operation, OperationFilterContext context) in /Users/mac/Downloads/ErrorSender/ErrSendWebApi/TimeZone/AddTimeAndTimeZoneOperationFilter.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.<GenerateOperationAsync>b__22_0(OpenApiOperation operation, OperationFilterContext filterContext)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-02 15:12:33.098 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 167.3442ms
+2025-07-02 15:13:53.846 +03:00 [INF] Application is shutting down...
+2025-07-02 15:14:01.329 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-02 15:14:01.431 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-02 15:14:01.433 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-02 15:14:01.433 +03:00 [INF] Hosting environment: Development
+2025-07-02 15:14:01.434 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender/ErrSendWebApi
+2025-07-02 15:14:05.752 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-02 15:14:05.845 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 94.6603ms
+2025-07-02 15:14:05.872 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:14:05.900 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-02 15:14:05.903 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 30.8989ms
+2025-07-02 15:14:05.905 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:14:06.021 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:14:06.109 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi). See inner exception
+ ---> System.Collections.Generic.KeyNotFoundException: The given key 'application/json' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ErrSendWebApi.TimeZone.AddTimeAndTimeZoneOperationFilter.Apply(OpenApiOperation operation, OperationFilterContext context) in /Users/mac/Downloads/ErrorSender/ErrSendWebApi/TimeZone/AddTimeAndTimeZoneOperationFilter.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.<GenerateOperationAsync>b__22_0(OpenApiOperation operation, OperationFilterContext filterContext)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-02 15:14:06.128 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 107.099ms
+2025-07-02 15:14:12.288 +03:00 [INF] Application is shutting down...
+2025-07-02 15:14:40.369 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-02 15:14:40.468 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-02 15:14:40.470 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-02 15:14:40.470 +03:00 [INF] Hosting environment: Development
+2025-07-02 15:14:40.470 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender/ErrSendWebApi
+2025-07-02 15:14:49.381 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-02 15:14:49.523 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 144.1792ms
+2025-07-02 15:14:49.542 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:14:49.575 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-02 15:14:49.578 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 35.8211ms
+2025-07-02 15:14:49.581 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:14:49.667 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:14:49.941 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi). See inner exception
+ ---> System.Collections.Generic.KeyNotFoundException: The given key 'application/json' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ErrSendWebApi.TimeZone.AddTimeAndTimeZoneOperationFilter.Apply(OpenApiOperation operation, OperationFilterContext context) in /Users/mac/Downloads/ErrorSender/ErrSendWebApi/TimeZone/AddTimeAndTimeZoneOperationFilter.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.<GenerateOperationAsync>b__22_0(OpenApiOperation operation, OperationFilterContext filterContext)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-02 15:14:49.962 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 294.8033ms
+2025-07-02 15:22:33.799 +03:00 [INF] Application is shutting down...
+2025-07-02 15:23:35.884 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-02 15:23:35.959 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-02 15:23:35.961 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-02 15:23:35.961 +03:00 [INF] Hosting environment: Development
+2025-07-02 15:23:35.961 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-02 15:23:38.174 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-02 15:23:38.314 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 140.7981ms
+2025-07-02 15:23:38.362 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:23:38.404 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-02 15:23:38.407 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 45.1842ms
+2025-07-02 15:23:38.410 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:23:38.532 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:23:38.652 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi). See inner exception
+ ---> System.Collections.Generic.KeyNotFoundException: The given key 'application/json' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ErrSendWebApi.TimeZone.AddTimeAndTimeZoneOperationFilter.Apply(OpenApiOperation operation, OperationFilterContext context) in /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/TimeZone/AddTimeAndTimeZoneOperationFilter.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.<GenerateOperationAsync>b__22_0(OpenApiOperation operation, OperationFilterContext filterContext)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-02 15:23:38.674 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 141.5646ms
+2025-07-02 15:23:49.805 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:23:49.811 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 6.0779ms
+2025-07-02 15:23:49.812 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:23:49.991 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:23:49.994 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi). See inner exception
+ ---> System.Collections.Generic.KeyNotFoundException: The given key 'application/json' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ErrSendWebApi.TimeZone.AddTimeAndTimeZoneOperationFilter.Apply(OpenApiOperation operation, OperationFilterContext context) in /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/TimeZone/AddTimeAndTimeZoneOperationFilter.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.<GenerateOperationAsync>b__22_0(OpenApiOperation operation, OperationFilterContext filterContext)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-02 15:23:49.996 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 5.0015ms
+2025-07-02 15:23:52.033 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-02 15:23:52.033 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 0.651ms
+2025-07-02 15:23:52.064 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:23:52.066 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 1.9702ms
+2025-07-02 15:23:52.066 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:23:52.152 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:23:52.156 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi). See inner exception
+ ---> System.Collections.Generic.KeyNotFoundException: The given key 'application/json' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ErrSendWebApi.TimeZone.AddTimeAndTimeZoneOperationFilter.Apply(OpenApiOperation operation, OperationFilterContext context) in /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/TimeZone/AddTimeAndTimeZoneOperationFilter.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.<GenerateOperationAsync>b__22_0(OpenApiOperation operation, OperationFilterContext filterContext)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-02 15:23:52.165 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 13.3064ms
+2025-07-02 15:25:51.253 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:25:51.255 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi). See inner exception
+ ---> System.Collections.Generic.KeyNotFoundException: The given key 'application/json' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ErrSendWebApi.TimeZone.AddTimeAndTimeZoneOperationFilter.Apply(OpenApiOperation operation, OperationFilterContext context) in /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/TimeZone/AddTimeAndTimeZoneOperationFilter.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.<GenerateOperationAsync>b__22_0(OpenApiOperation operation, OperationFilterContext filterContext)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-02 15:25:51.257 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 3.989ms
+2025-07-02 15:26:35.795 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:26:35.797 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi). See inner exception
+ ---> System.Collections.Generic.KeyNotFoundException: The given key 'application/json' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ErrSendWebApi.TimeZone.AddTimeAndTimeZoneOperationFilter.Apply(OpenApiOperation operation, OperationFilterContext context) in /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/TimeZone/AddTimeAndTimeZoneOperationFilter.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.<GenerateOperationAsync>b__22_0(OpenApiOperation operation, OperationFilterContext filterContext)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-02 15:26:35.799 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 3.3291ms
+2025-07-02 15:27:05.705 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-02 15:27:05.706 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 0.5295ms
+2025-07-02 15:27:05.725 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:27:05.726 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 0.6391ms
+2025-07-02 15:27:05.726 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:27:05.833 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:27:05.838 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi). See inner exception
+ ---> System.Collections.Generic.KeyNotFoundException: The given key 'application/json' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ErrSendWebApi.TimeZone.AddTimeAndTimeZoneOperationFilter.Apply(OpenApiOperation operation, OperationFilterContext context) in /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/TimeZone/AddTimeAndTimeZoneOperationFilter.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.<GenerateOperationAsync>b__22_0(OpenApiOperation operation, OperationFilterContext filterContext)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-02 15:27:05.839 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 6.7557ms
+2025-07-02 15:27:06.738 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-02 15:27:06.758 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 3.2959ms
+2025-07-02 15:27:06.781 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:27:06.782 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 0.6366ms
+2025-07-02 15:27:06.782 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:27:06.918 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:27:06.923 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi). See inner exception
+ ---> System.Collections.Generic.KeyNotFoundException: The given key 'application/json' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at ErrSendWebApi.TimeZone.AddTimeAndTimeZoneOperationFilter.Apply(OpenApiOperation operation, OperationFilterContext context) in /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/TimeZone/AddTimeAndTimeZoneOperationFilter.cs:line 19
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.<GenerateOperationAsync>b__22_0(OpenApiOperation operation, OperationFilterContext filterContext)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository, Func`3 parametersGenerator, Func`3 bodyGenerator, Func`3 applyFilters)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationAsync(OpenApiDocument document, ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperationsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository, Func`4 operationsGenerator)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePathsAsync(OpenApiDocument document, IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-02 15:27:06.924 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 6.6394ms
+2025-07-02 15:27:12.288 +03:00 [INF] Application is shutting down...
+2025-07-02 15:27:20.738 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-02 15:27:20.845 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-02 15:27:20.847 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-02 15:27:20.847 +03:00 [INF] Hosting environment: Development
+2025-07-02 15:27:20.847 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-02 15:27:27.698 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:27:27.760 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-02 15:27:27.766 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 70.155ms
+2025-07-02 15:27:27.772 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:27:28.030 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:27:28.199 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 169.2733ms
+2025-07-02 15:27:40.041 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/send-telegram-message - application/json 55
+2025-07-02 15:27:40.047 +03:00 [INF] CORS policy execution successful.
+2025-07-02 15:27:40.049 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-07-02 15:27:40.080 +03:00 [INF] Route matched with {action = "SendTelegramMessage", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendTelegramMessage(ErrSendWebApi.Controllers.TelegramMessageRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-02 15:27:40.309 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) - Validation state: "Valid"
+2025-07-02 15:27:40.337 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-02 15:27:40.339 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-02 15:27:40.905 +03:00 [INF] Received HTTP response headers after 561.7645ms - 200
+2025-07-02 15:27:40.906 +03:00 [INF] End processing HTTP request after 574.311ms - 200
+2025-07-02 15:27:40.920 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 603.2531ms.
+2025-07-02 15:27:40.936 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-02 15:27:40.967 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) in 880.1809ms
+2025-07-02 15:27:40.969 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-07-02 15:27:40.976 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/send-telegram-message - 200 null application/json; charset=utf-8 934.8273ms
+2025-07-02 15:34:14.851 +03:00 [INF] Application is shutting down...
+2025-07-02 15:35:42.344 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-02 15:35:42.555 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-02 15:35:42.557 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-02 15:35:42.558 +03:00 [INF] Hosting environment: Development
+2025-07-02 15:35:42.558 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-02 15:35:53.079 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-02 15:35:53.364 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 293.853ms
+2025-07-02 15:35:53.398 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:35:53.442 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-02 15:35:53.446 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 48.2522ms
+2025-07-02 15:35:53.452 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:35:53.576 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:35:53.754 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 178.2561ms
+2025-07-02 15:36:00.021 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/throw-error - application/json 30
+2025-07-02 15:36:00.026 +03:00 [INF] CORS policy execution successful.
+2025-07-02 15:36:00.028 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.ThrowError (ErrSendWebApi)'
+2025-07-02 15:36:00.045 +03:00 [INF] Route matched with {action = "ThrowError", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult ThrowError(ErrSendWebApi.ModelsDto.ErrorRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-02 15:36:00.224 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.ThrowError (ErrSendWebApi) - Validation state: "Valid"
+2025-07-02 15:36:00.237 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.ThrowError (ErrSendWebApi) in 186.4576ms
+2025-07-02 15:36:00.238 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.ThrowError (ErrSendWebApi)'
+2025-07-02 15:36:00.278 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-02 15:36:00.280 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-02 15:36:00.714 +03:00 [INF] Received HTTP response headers after 428.8547ms - 200
+2025-07-02 15:36:00.716 +03:00 [INF] End processing HTTP request after 441.6273ms - 200
+2025-07-02 15:36:00.724 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/throw-error - 500 null application/json 703.1292ms
+2025-07-02 15:36:51.986 +03:00 [INF] Application is shutting down...
+2025-07-02 15:42:03.899 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-02 15:42:03.980 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-02 15:42:03.981 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-02 15:42:03.982 +03:00 [INF] Hosting environment: Development
+2025-07-02 15:42:03.982 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-02 15:42:07.126 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-02 15:42:07.431 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 307.1703ms
+2025-07-02 15:42:07.456 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:42:07.499 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-02 15:42:07.504 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 47.3013ms
+2025-07-02 15:42:07.507 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:42:07.683 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:42:07.848 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 165.1385ms
+2025-07-02 15:43:24.427 +03:00 [INF] Application is shutting down...
+2025-07-02 15:43:30.495 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-02 15:43:30.591 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-02 15:43:30.594 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-02 15:43:30.594 +03:00 [INF] Hosting environment: Development
+2025-07-02 15:43:30.594 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-02 15:43:40.009 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-02 15:43:40.155 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 147.8508ms
+2025-07-02 15:43:40.174 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:43:40.209 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-02 15:43:40.212 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 37.6004ms
+2025-07-02 15:43:40.215 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:43:40.334 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:43:40.492 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 157.9879ms
+2025-07-02 15:45:07.132 +03:00 [INF] Application is shutting down...
+2025-07-02 15:55:02.595 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-02 15:55:02.714 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-02 15:55:02.716 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-02 15:55:02.717 +03:00 [INF] Hosting environment: Development
+2025-07-02 15:55:02.717 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-02 15:55:05.000 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-02 15:55:05.140 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 141.8445ms
+2025-07-02 15:55:05.173 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-02 15:55:05.209 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-02 15:55:05.213 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 39.826ms
+2025-07-02 15:55:05.216 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-02 15:55:05.340 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-02 15:55:05.532 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 191.9039ms
+2025-07-02 15:55:57.801 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-02 15:55:57.807 +03:00 [INF] CORS policy execution successful.
+2025-07-02 15:55:57.809 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-07-02 15:55:57.830 +03:00 [INF] Route matched with {action = "SendTelegramMessage", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendTelegramMessage(ErrSendWebApi.ModelsDto.TelegramMessageRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-02 15:55:57.983 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) - Validation state: "Valid"
+2025-07-02 15:55:58.015 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-02 15:55:58.016 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-02 15:55:58.377 +03:00 [INF] Received HTTP response headers after 355.3935ms - 200
+2025-07-02 15:55:58.378 +03:00 [INF] End processing HTTP request after 368.0317ms - 200
+2025-07-02 15:55:58.396 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 402.0869ms.
+2025-07-02 15:55:58.413 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-02 15:55:58.437 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) in 600.2065ms
+2025-07-02 15:55:58.439 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-07-02 15:55:58.446 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 200 null application/json; charset=utf-8 644.8392ms
+2025-07-02 16:05:52.451 +03:00 [INF] Application is shutting down...

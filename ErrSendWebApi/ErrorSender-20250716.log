@@ -1,0 +1,279 @@
+2025-07-16 13:16:42.086 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-16 13:16:42.331 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-16 13:16:42.333 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 13:16:42.333 +03:00 [INF] Hosting environment: Development
+2025-07-16 13:16:42.333 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-16 13:16:46.792 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-16 13:16:47.066 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 275.5179ms
+2025-07-16 13:16:47.100 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger-ui.css - null null
+2025-07-16 13:16:47.103 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger-ui-standalone-preset.js - null null
+2025-07-16 13:16:47.103 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger-ui-bundle.js - null null
+2025-07-16 13:16:47.103 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-16 13:16:47.105 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.css - null null
+2025-07-16 13:16:47.106 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.js - null null
+2025-07-16 13:16:47.107 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.js - 200 null application/javascript;charset=utf-8 1.1858ms
+2025-07-16 13:16:47.117 +03:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-07-16 13:16:47.118 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.css - 200 202 text/css 12.2308ms
+2025-07-16 13:16:47.140 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-07-16 13:16:47.140 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-07-16 13:16:47.145 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger-ui-standalone-preset.js - 200 229223 text/javascript 41.3772ms
+2025-07-16 13:16:47.145 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger-ui.css - 200 154949 text/css 44.933ms
+2025-07-16 13:16:47.145 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-07-16 13:16:47.145 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger-ui-bundle.js - 200 1466908 text/javascript 42.1156ms
+2025-07-16 13:16:47.148 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 13:16:47.152 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 49.1275ms
+2025-07-16 13:16:47.157 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-16 13:16:47.404 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-16 13:16:47.469 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/favicon-32x32.png - null null
+2025-07-16 13:16:47.470 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-07-16 13:16:47.470 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/favicon-32x32.png - 200 628 image/png 1.3278ms
+2025-07-16 13:16:47.663 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 259.6411ms
+2025-07-16 13:18:42.979 +03:00 [INF] Application is shutting down...
+2025-07-16 13:56:06.619 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-16 13:56:06.920 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-16 13:56:06.922 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 13:56:06.923 +03:00 [INF] Hosting environment: Development
+2025-07-16 13:56:06.923 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-16 13:56:09.322 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-16 13:56:09.577 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 257.0399ms
+2025-07-16 13:56:09.601 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-16 13:56:09.631 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 13:56:09.635 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 33.8848ms
+2025-07-16 13:56:09.638 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-16 13:56:09.839 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-16 13:56:09.997 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 157.8024ms
+2025-07-16 13:57:00.304 +03:00 [INF] Application is shutting down...
+2025-07-16 13:57:24.560 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-16 13:57:24.644 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-16 13:57:24.646 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 13:57:24.646 +03:00 [INF] Hosting environment: Development
+2025-07-16 13:57:24.646 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-16 13:57:27.418 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-16 13:57:27.561 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 144.2238ms
+2025-07-16 13:57:27.586 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-16 13:57:27.617 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 13:57:27.620 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 33.9811ms
+2025-07-16 13:57:27.624 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-16 13:57:27.704 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-16 13:57:27.858 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 154.1679ms
+2025-07-16 13:57:31.079 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-16 13:57:31.080 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 0.7188ms
+2025-07-16 13:57:31.098 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-16 13:57:31.103 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 4.8911ms
+2025-07-16 13:57:31.104 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-16 13:57:31.203 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-16 13:57:31.208 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.5538ms
+2025-07-16 13:57:45.692 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-16 13:57:45.693 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 0.7034ms
+2025-07-16 13:57:45.712 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-16 13:57:45.715 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 2.3194ms
+2025-07-16 13:57:45.715 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-16 13:57:45.795 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-16 13:57:45.800 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.3627ms
+2025-07-16 13:57:46.651 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-16 13:57:46.652 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 0.4472ms
+2025-07-16 13:57:46.689 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-16 13:57:46.689 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 0.5594ms
+2025-07-16 13:57:46.689 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-16 13:57:46.773 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-16 13:57:46.777 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.339ms
+2025-07-16 13:57:47.607 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-16 13:57:47.607 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 0.5273ms
+2025-07-16 13:57:47.641 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-16 13:57:47.642 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 0.5326ms
+2025-07-16 13:57:47.642 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-16 13:57:47.731 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-16 13:57:47.735 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.4448ms
+2025-07-16 13:59:58.997 +03:00 [INF] Application is shutting down...
+2025-07-16 14:00:09.990 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-16 14:00:10.069 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-16 14:00:10.071 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 14:00:10.071 +03:00 [INF] Hosting environment: Development
+2025-07-16 14:00:10.071 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-16 14:00:20.883 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-16 14:00:21.017 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 136.0097ms
+2025-07-16 14:00:21.033 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-16 14:00:21.069 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 14:00:21.072 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 38.3113ms
+2025-07-16 14:00:21.074 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-16 14:00:21.164 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-16 14:00:21.319 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 154.3935ms
+2025-07-16 14:00:26.914 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/Test/GetJwtDemoToken/jwt-demo-token - null null
+2025-07-16 14:00:26.920 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtDemoToken (ErrSendWebApi)'
+2025-07-16 14:00:26.930 +03:00 [INF] Route matched with {action = "GetJwtDemoToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtDemoToken() on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-16 14:00:26.942 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtDemoToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-16 14:00:27.146 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtDemoToken (ErrSendWebApi) in 210.9704ms
+2025-07-16 14:00:27.147 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtDemoToken (ErrSendWebApi)'
+2025-07-16 14:00:27.186 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-16 14:00:27.188 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-16 14:00:27.780 +03:00 [INF] Received HTTP response headers after 588.0029ms - 200
+2025-07-16 14:00:27.781 +03:00 [INF] End processing HTTP request after 598.7809ms - 200
+2025-07-16 14:00:27.788 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/api/Test/GetJwtDemoToken/jwt-demo-token - 500 null application/json 874.9063ms
+2025-07-16 14:03:06.148 +03:00 [INF] Application is shutting down...
+2025-07-16 14:03:11.028 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-16 14:03:11.126 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-16 14:03:11.128 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 14:03:11.128 +03:00 [INF] Hosting environment: Development
+2025-07-16 14:03:11.128 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-16 14:03:14.355 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-16 14:03:14.687 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 332.9825ms
+2025-07-16 14:03:14.736 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-16 14:03:14.777 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 14:03:14.780 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 43.9403ms
+2025-07-16 14:03:14.783 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-16 14:03:14.888 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-16 14:03:15.060 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 171.3487ms
+2025-07-16 14:03:48.208 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - application/json 84
+2025-07-16 14:03:48.226 +03:00 [INF] CORS policy execution successful.
+2025-07-16 14:03:48.230 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:03:48.343 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-16 14:03:48.384 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-16 14:03:48.428 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 81.2727ms
+2025-07-16 14:03:48.428 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:03:48.451 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-16 14:03:48.452 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-16 14:03:48.810 +03:00 [INF] Received HTTP response headers after 353.2411ms - 200
+2025-07-16 14:03:48.812 +03:00 [INF] End processing HTTP request after 363.3283ms - 200
+2025-07-16 14:03:48.823 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - 500 null application/json 614.5615ms
+2025-07-16 14:04:06.267 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/Test/GetJwtToken/jwt-token - null null
+2025-07-16 14:04:06.271 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-07-16 14:04:06.271 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-07-16 14:04:06.271 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/api/Test/GetJwtToken/jwt-token - 405 0 null 4.2714ms
+2025-07-16 14:05:05.698 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - application/json 84
+2025-07-16 14:05:05.699 +03:00 [INF] CORS policy execution successful.
+2025-07-16 14:05:05.699 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:05:05.700 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-16 14:05:05.701 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-16 14:05:05.702 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 2.4017ms
+2025-07-16 14:05:05.703 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:05:05.703 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-16 14:05:05.704 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-16 14:05:06.091 +03:00 [INF] Received HTTP response headers after 387.6638ms - 200
+2025-07-16 14:05:06.092 +03:00 [INF] End processing HTTP request after 388.1004ms - 200
+2025-07-16 14:05:06.092 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - 500 null application/json 393.399ms
+2025-07-16 14:10:00.011 +03:00 [INF] Application is shutting down...
+2025-07-16 14:10:05.083 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-16 14:10:05.165 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-16 14:10:05.167 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 14:10:05.167 +03:00 [INF] Hosting environment: Development
+2025-07-16 14:10:05.167 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-16 14:10:11.971 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-16 14:10:12.121 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 151.4516ms
+2025-07-16 14:10:12.140 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-16 14:10:12.174 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 14:10:12.178 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 38.178ms
+2025-07-16 14:10:12.181 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-16 14:10:12.301 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-16 14:10:12.461 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 160.4257ms
+2025-07-16 14:10:41.935 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - application/json 79
+2025-07-16 14:10:41.940 +03:00 [INF] CORS policy execution successful.
+2025-07-16 14:10:41.942 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:10:41.958 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-16 14:10:42.014 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-16 14:10:42.044 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 80.7701ms
+2025-07-16 14:10:42.044 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:10:42.076 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-16 14:10:42.077 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-16 14:10:42.710 +03:00 [INF] Received HTTP response headers after 627.9451ms - 200
+2025-07-16 14:10:42.711 +03:00 [INF] End processing HTTP request after 639.0873ms - 200
+2025-07-16 14:10:42.721 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - 500 null application/json 786.5297ms
+2025-07-16 14:10:55.418 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/Test/GetJwtToken/jwt-token - null null
+2025-07-16 14:10:55.422 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-07-16 14:10:55.422 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-07-16 14:10:55.422 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/api/Test/GetJwtToken/jwt-token - 405 0 null 4.5867ms
+2025-07-16 14:12:54.508 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/jwt-token - null null
+2025-07-16 14:12:54.509 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/jwt-token - 404 0 null 0.4885ms
+2025-07-16 14:12:54.509 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/jwt-token, Response status code: 404
+2025-07-16 14:12:57.559 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/Test/GetJwtToken/jwt-token - null null
+2025-07-16 14:12:57.560 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-07-16 14:12:57.560 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-07-16 14:12:57.560 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/api/Test/GetJwtToken/jwt-token - 405 0 null 0.8781ms
+2025-07-16 14:13:44.317 +03:00 [INF] Application is shutting down...
+2025-07-16 14:13:49.379 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-16 14:13:49.457 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-16 14:13:49.458 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 14:13:49.458 +03:00 [INF] Hosting environment: Development
+2025-07-16 14:13:49.458 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-16 14:13:58.979 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-16 14:13:59.121 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 143.3381ms
+2025-07-16 14:13:59.141 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-16 14:13:59.176 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 14:13:59.180 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 39.0922ms
+2025-07-16 14:13:59.183 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-16 14:13:59.266 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-16 14:13:59.423 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 157.5326ms
+2025-07-16 14:14:04.574 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - application/json 78
+2025-07-16 14:14:04.579 +03:00 [INF] CORS policy execution successful.
+2025-07-16 14:14:04.581 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:14:04.597 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-16 14:14:04.652 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-16 14:14:04.669 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 66.9435ms
+2025-07-16 14:14:04.670 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:14:04.700 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-16 14:14:04.701 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-16 14:14:05.197 +03:00 [INF] Received HTTP response headers after 491.0808ms - 200
+2025-07-16 14:14:05.198 +03:00 [INF] End processing HTTP request after 501.995ms - 200
+2025-07-16 14:14:05.206 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - 500 null application/json 632.3207ms
+2025-07-16 14:14:32.063 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - application/json 79
+2025-07-16 14:14:32.064 +03:00 [INF] CORS policy execution successful.
+2025-07-16 14:14:32.066 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:14:32.066 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-16 14:14:32.067 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-16 14:14:32.067 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 1.5288ms
+2025-07-16 14:14:32.068 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:14:32.068 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-16 14:14:32.068 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-16 14:14:32.129 +03:00 [INF] Received HTTP response headers after 60.3226ms - 200
+2025-07-16 14:14:32.129 +03:00 [INF] End processing HTTP request after 60.7654ms - 200
+2025-07-16 14:14:32.130 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - 500 null application/json 66.938ms
+2025-07-16 14:17:11.117 +03:00 [INF] Application is shutting down...
+2025-07-16 14:17:14.337 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-16 14:17:14.414 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-16 14:17:14.416 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 14:17:14.416 +03:00 [INF] Hosting environment: Development
+2025-07-16 14:17:14.416 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-16 14:17:24.785 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-16 14:17:24.923 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 140.1606ms
+2025-07-16 14:17:24.943 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-16 14:17:24.977 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 14:17:24.980 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 36.8144ms
+2025-07-16 14:17:24.983 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-16 14:17:25.093 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-16 14:17:25.257 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 163.8544ms
+2025-07-16 14:17:32.400 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - application/json 78
+2025-07-16 14:17:32.405 +03:00 [INF] CORS policy execution successful.
+2025-07-16 14:17:32.408 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:17:32.424 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-16 14:17:32.482 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-16 14:17:32.523 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 86.7164ms
+2025-07-16 14:17:32.527 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:17:32.674 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - 409 null application/json 273.3502ms
+2025-07-16 14:17:49.250 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/api/Test/GetJwtToken/jwt-token - null null
+2025-07-16 14:17:49.288 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-07-16 14:17:49.288 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-07-16 14:17:49.289 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/api/Test/GetJwtToken/jwt-token - 405 0 null 38.5494ms
+2025-07-16 14:21:20.130 +03:00 [INF] Application is shutting down...
+2025-07-16 14:22:14.626 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-16 14:22:14.715 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-16 14:22:14.717 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 14:22:14.717 +03:00 [INF] Hosting environment: Development
+2025-07-16 14:22:14.717 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-16 14:22:22.574 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-16 14:22:22.704 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 131.1076ms
+2025-07-16 14:22:22.725 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-16 14:22:22.757 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 14:22:22.760 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 35.8801ms
+2025-07-16 14:22:22.763 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-16 14:22:22.871 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-16 14:22:23.025 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 154.1521ms
+2025-07-16 14:22:41.626 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - application/json 79
+2025-07-16 14:22:41.630 +03:00 [INF] CORS policy execution successful.
+2025-07-16 14:22:41.632 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:22:41.650 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-16 14:22:41.707 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-16 14:22:41.762 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 48.8651ms.
+2025-07-16 14:22:41.772 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-07-16 14:22:41.780 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 125.4757ms
+2025-07-16 14:22:41.780 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-16 14:22:41.780 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/jwt-token - 200 null application/json; charset=utf-8 154.9719ms
+2025-07-16 14:25:31.731 +03:00 [INF] Application is shutting down...

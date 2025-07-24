@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3A4gCs6ZrZnt+tO+OHWPQKnjXJAPX4ABeQSZvkJpKj0=",
+  "Source": "ErrSendWebApi",
+  "BasePath": "_content/ErrSendWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
