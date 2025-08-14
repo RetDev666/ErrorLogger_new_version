@@ -2,6 +2,8 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
+using FluentValidation;
+using ErrSendApplication.Common.Configs;
 
 namespace ErrSendApplication.Authorization
 {
@@ -10,17 +12,26 @@ namespace ErrSendApplication.Authorization
         private readonly string secret;
         private readonly int expiryMinutes;
         private static readonly HashSet<string> UsedLoginPasswordPairs = new();
+        private readonly IValidator<JwtConfig> configValidator;
 
-        public JwtTokenService(string secret, int expiryMinutes)
+        public JwtTokenService(string secret, int expiryMinutes, IValidator<JwtConfig> configValidator)
         {
             this.secret = secret;
             this.expiryMinutes = expiryMinutes;
+            this.configValidator = configValidator;
         }
 
         public string GenerateToken(string login, string password, IEnumerable<string> roles)
         {
-            if (string.IsNullOrWhiteSpace(secret) || secret.Length < 16)
-                throw new InvalidOperationException("Секрет JWT відсутній або занадто короткий. Встановіть довгий секрет у змінній середовища JWT_SECRET або appsettings.json!");
+            // Валідація конфігурації через FluentValidation замість ручних перевірок
+            var config = new JwtConfig { Secret = secret, ExpiryMinutes = expiryMinutes };
+            var validationResult = configValidator.Validate(config);
+            
+            if (!validationResult.IsValid)
+            {
+                var errors = string.Join(", ", validationResult.Errors.Select(e => e.ErrorMessage));
+                throw new InvalidOperationException($"JWT конфігурація невалідна: {errors}");
+            }
 
             var claims = new List<Claim>
             {

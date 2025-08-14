@@ -4,6 +4,8 @@ using System.Text;
 using System.Text.Json;
 using ErrSendApplication.Interfaces.Client;
 using ErrSendApplication.Interfaces.Telegram;
+using FluentValidation;
+using ErrSendApplication.Validators;
 
 namespace ErrSendPersistensTelegram.Services
 {
@@ -15,40 +17,52 @@ namespace ErrSendPersistensTelegram.Services
 
         private readonly IHttpClientWr httpClient;
         private readonly TelegramConfig telegramConfig;
+        private readonly IValidator<(string errorMessage, string? additionalInfo, TelegramConfig config)> validator;
+        private readonly IValidator<TelegramSendMessageRequestValidator.TelegramSendMessageRequest> messageValidator;
 
         public TelegramService(
             IHttpClientWr httpClient, 
-            IOptions<TelegramConfig> telegramConfig)
+            IOptions<TelegramConfig> telegramConfig,
+            IValidator<(string errorMessage, string? additionalInfo, TelegramConfig config)> validator,
+            IValidator<TelegramSendMessageRequestValidator.TelegramSendMessageRequest> messageValidator)
         {
             this.httpClient = httpClient;
             this.telegramConfig = telegramConfig.Value;
+            this.validator = validator;
+            this.messageValidator = messageValidator;
         }
 
         public async Task SendErrorMessageAsync(string errorMessage, string? additionalInfo = null)
         {
             try
             {
-                // Валідація параметрів
-                if (string.IsNullOrWhiteSpace(errorMessage))
+                // Валідація через FluentValidation замість ручних перевірок
+                var validationResult = await validator.ValidateAsync((errorMessage, additionalInfo, telegramConfig));
+                
+                if (!validationResult.IsValid)
                 {
-                    return;
-                }
-
-                // Перевірка конфігурації
-                if (string.IsNullOrEmpty(telegramConfig.BotToken) || string.IsNullOrEmpty(telegramConfig.ChatId))
-                {
-                    return;
+                    // Логуємо помилки валідації (можна додати логер)
+                    var errors = string.Join(", ", validationResult.Errors.Select(e => e.ErrorMessage));
+                    return; // Виходимо, якщо валідація не пройшла
                 }
 
                 var message = FormatErrorMessage(errorMessage, additionalInfo);
                 var url = $"{TelegramApiUrl}{telegramConfig.BotToken}{SendMessageEndpoint}";
 
-                var payload = new TelegramSendMessageRequest
+                var payload = new TelegramSendMessageRequestValidator.TelegramSendMessageRequest
                 {
                     ChatId = telegramConfig.ChatId,
                     Text = message,
                     ParseMode = HtmlParseMode
                 };
+
+                // Валідація payload перед відправкою
+                var messageValidationResult = await messageValidator.ValidateAsync(payload);
+                if (!messageValidationResult.IsValid)
+                {
+                    var messageErrors = string.Join(", ", messageValidationResult.Errors.Select(e => e.ErrorMessage));
+                    return; // Виходимо, якщо валідація payload не пройшла
+                }
 
                 var jsonPayload = JsonSerializer.Serialize(payload);
 
@@ -68,26 +82,22 @@ namespace ErrSendPersistensTelegram.Services
             sb.AppendLine($"⏰ <b>Час:</b> {DateTime.Now:dd.MM.yyyy HH:mm:ss}");
             sb.AppendLine($"❌ <b>Помилка:</b> {System.Net.WebUtility.HtmlEncode(errorMessage)}");
 
-            if (!string.IsNullOrWhiteSpace(additionalInfo))
+            // Валідація additionalInfo через FluentValidation
+            if (additionalInfo != null)
             {
-                // Декодуємо, якщо раптом прийшов URL-encoded текст
-                var decodedInfo = System.Net.WebUtility.UrlDecode(additionalInfo);
-                sb.AppendLine($"ℹ️ <b>Додаткова інформація:</b> {System.Net.WebUtility.HtmlEncode(decodedInfo)}");
+                var additionalInfoValidator = new FluentValidation.Validators.LengthValidator(0, 1000);
+                var validationResult = additionalInfoValidator.Validate(additionalInfo);
+                
+                if (validationResult.IsValid && !string.IsNullOrWhiteSpace(additionalInfo))
+                {
+                    // Декодуємо, якщо раптом прийшов URL-encoded текст
+                    var decodedInfo = System.Net.WebUtility.UrlDecode(additionalInfo);
+                    sb.AppendLine($"ℹ️ <b>Додаткова інформація:</b> {System.Net.WebUtility.HtmlEncode(decodedInfo)}");
+                }
             }
 
             return sb.ToString();
         }
-    }
-
-    // Типізований клас для Telegram API запиту (треба буде перенести в інший файл)
-    internal class TelegramSendMessageRequest
-    {
-        [System.Text.Json.Serialization.JsonPropertyName("chat_id")]
-        public string ChatId { get; set; } 
-        [System.Text.Json.Serialization.JsonPropertyName("text")]
-        public string Text { get; set; } 
-        [System.Text.Json.Serialization.JsonPropertyName("parse_mode")]
-        public string ParseMode { get; set; } 
     }
 } 
 

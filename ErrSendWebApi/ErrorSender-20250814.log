@@ -44,3 +44,16 @@
 2025-08-14 13:34:09.787 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) in 710.0819ms
 2025-08-14 13:34:09.789 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
 2025-08-14 13:34:09.793 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 200 null application/json; charset=utf-8 947.9902ms
+2025-08-14 13:40:03.465 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/ThrowError/Текст помилки - application/json 598
+2025-08-14 13:40:03.466 +03:00 [INF] CORS policy execution successful.
+2025-08-14 13:40:03.469 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.ThrowError (ErrSendWebApi)'
+2025-08-14 13:40:03.470 +03:00 [INF] Route matched with {action = "ThrowError", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult ThrowError(ErrSendApplication.DTO.ErrorRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-14 13:40:03.473 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.ThrowError (ErrSendWebApi) - Validation state: "Valid"
+2025-08-14 13:40:03.474 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.ThrowError (ErrSendWebApi) in 3.6603ms
+2025-08-14 13:40:03.474 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.ThrowError (ErrSendWebApi)'
+2025-08-14 13:40:03.486 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-08-14 13:40:03.486 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-08-14 13:40:03.758 +03:00 [INF] Received HTTP response headers after 271.8196ms - 200
+2025-08-14 13:40:03.758 +03:00 [INF] End processing HTTP request after 272.2305ms - 200
+2025-08-14 13:40:03.764 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/ThrowError/Текст помилки - 500 null application/json 298.6365ms
+2025-08-14 13:41:14.057 +03:00 [INF] Application is shutting down...

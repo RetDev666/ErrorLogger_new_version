@@ -7,8 +7,15 @@ namespace ErrSendApplication.Validators
     {
         public ErrorRequestValidator()
         {
-            RuleFor(x => x.ErrorMessage)
-                .NotEmpty().WithMessage("ErrorMessage must not be empty");
+            try
+            {
+                RuleFor(x => x.ErrorMessage)
+                    .NotEmpty().WithMessage("Повідомлення про помилку не повинно бути порожнім");
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException($"Помилка створення правил валідації ErrorRequest: {ex.Message}", ex);
+            }
         }
     }
 } 

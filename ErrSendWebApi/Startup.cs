@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using ErrSendWebApi.TimeZone;
+using FluentValidation;
 
 namespace ErrSendWebApi
 {
@@ -35,6 +36,10 @@ namespace ErrSendWebApi
 
             services.AddApplication(Configuration);
             services.AddPersistenceTelegram(Configuration);
+            
+            // Реєструємо FluentValidation валідатори
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+            
             services.AddControllers();
             
 
@@ -56,7 +61,9 @@ namespace ErrSendWebApi
                     Description = "Error Sender API"
                 });
                 
-                c.OperationFilter<AddTimeAndTimeZoneOperationFilter>(); // Закоментовано, бо викликає помилки
+                // Реєструємо OperationFilter з валідатором
+                var operationFilter = services.BuildServiceProvider().GetRequiredService<AddTimeAndTimeZoneOperationFilter>();
+                c.OperationFilter<AddTimeAndTimeZoneOperationFilter>();
                 
                 // Додаємо підтримку JWT Bearer авторизації
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme

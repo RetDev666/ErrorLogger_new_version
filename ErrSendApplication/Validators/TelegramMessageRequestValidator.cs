@@ -7,8 +7,15 @@ namespace ErrSendApplication.Validators
     {
         public TelegramMessageRequestValidator()
         {
-            RuleFor(x => x.Message)
-                .NotEmpty().WithMessage("Повідомлення не повинно бути порожнім");
+            try
+            {
+                RuleFor(x => x.Message)
+                    .NotEmpty().WithMessage("Повідомлення не повинно бути порожнім");
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException($"Помилка створення правил валідації TelegramMessageRequest: {ex.Message}", ex);
+            }
         }
     }
 } 
