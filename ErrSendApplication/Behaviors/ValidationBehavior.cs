@@ -6,8 +6,6 @@ namespace ErrSendApplication.Behaviors
     /// <summary>
     /// Поведінка для валідації вхідних даних.
     /// </summary>
-    /// <typeparam name="TRequest">Запрос</typeparam>
-    /// <typeparam name="TResponse">Відповідь</typeparam>
     public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
     {
         private readonly IEnumerable<IValidator<TRequest>> validators;

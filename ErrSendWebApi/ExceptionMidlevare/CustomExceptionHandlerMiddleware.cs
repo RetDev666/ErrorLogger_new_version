@@ -32,41 +32,29 @@ namespace ErrSendWebApi.ExceptionMidlevare
         private async Task HandleExceptionAsync(HttpContext context, Exception exception)
         {
             var code = HttpStatusCode.InternalServerError;
-            var result = string.Empty;
-
-            var exStat = new ExecutionStatus();
-            exStat.Status = "ER";
-
-            var additionalInfo = $"Path: {context.Request.Path}, Method: {context.Request.Method}, IP: {context.Connection.RemoteIpAddress}";
+            var exStat = new ExecutionStatus { Status = "ER" };
+            string additionalInfo = $"Path: {context.Request.Path}, Method: {context.Request.Method}, IP: {context.Connection.RemoteIpAddress}";
 
             switch (exception)
             {
                 case SecurityTokenException:
                     code = HttpStatusCode.Unauthorized;
                     exStat.Errors.Add(exception.Message);
-                    result = JsonSerializer.Serialize(exStat);
                     break;
                 case InvalidOperationException:
                     code = HttpStatusCode.Conflict;
                     exStat.Errors.Add(exception.Message);
-                    result = JsonSerializer.Serialize(exStat);
                     break;
                 default:
                     code = HttpStatusCode.InternalServerError;
                     exStat.Errors.Add("Внутрішня помилка сервера");
-                    result = JsonSerializer.Serialize(exStat);
                     await telegramService.SendErrorMessageAsync(exception.Message, additionalInfo);
                     break;
             }
 
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)code;
-
-            if (result == string.Empty)
-            {
-                result = JsonSerializer.Serialize(new { error = exception.Message });
-            }
-
+            var result = JsonSerializer.Serialize(exStat);
             await context.Response.WriteAsync(result);
         }
     }

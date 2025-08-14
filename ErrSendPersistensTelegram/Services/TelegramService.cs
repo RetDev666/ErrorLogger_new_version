@@ -50,10 +50,7 @@ namespace ErrSendPersistensTelegram.Services
                     ParseMode = HtmlParseMode
                 };
 
-                var jsonPayload = JsonSerializer.Serialize(payload, new JsonSerializerOptions 
-                { 
-                    PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower 
-                });
+                var jsonPayload = JsonSerializer.Serialize(payload);
 
                 var content = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
                 await httpClient.PostAsync(url, content);
@@ -73,18 +70,24 @@ namespace ErrSendPersistensTelegram.Services
 
             if (!string.IsNullOrWhiteSpace(additionalInfo))
             {
-                sb.AppendLine($"ℹ️ <b>Додаткова інформація:</b> {System.Net.WebUtility.HtmlEncode(additionalInfo)}");
+                // Декодуємо, якщо раптом прийшов URL-encoded текст
+                var decodedInfo = System.Net.WebUtility.UrlDecode(additionalInfo);
+                sb.AppendLine($"ℹ️ <b>Додаткова інформація:</b> {System.Net.WebUtility.HtmlEncode(decodedInfo)}");
             }
 
             return sb.ToString();
         }
     }
 
-    // Типізований клас для Telegram API запиту
+    // Типізований клас для Telegram API запиту (треба буде перенести в інший файл)
     internal class TelegramSendMessageRequest
     {
-        public string ChatId { get; set; } = string.Empty;
-        public string Text { get; set; } = string.Empty;
-        public string ParseMode { get; set; } = string.Empty;
+        [System.Text.Json.Serialization.JsonPropertyName("chat_id")]
+        public string ChatId { get; set; } 
+        [System.Text.Json.Serialization.JsonPropertyName("text")]
+        public string Text { get; set; } 
+        [System.Text.Json.Serialization.JsonPropertyName("parse_mode")]
+        public string ParseMode { get; set; } 
     }
 } 
+

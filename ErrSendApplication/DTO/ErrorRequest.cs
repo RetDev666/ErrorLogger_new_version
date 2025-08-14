@@ -3,8 +3,8 @@ namespace ErrSendApplication.DTO
     public class ErrorRequest
     {
         /// <summary>
-        /// Текст помилки
+        /// Error message
         /// </summary>
-        public required string ErrorMessage { get; set; } 
+        public required string ErrorMessage { get; set; }
     }
 } 

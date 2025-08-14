@@ -48,6 +48,15 @@
           }
         }
       },
+      "KastleWall.Encryption/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/KastleWall.Security.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/KastleWall.Security.dll": {}
+        }
+      },
       "MediatR/12.5.0": {
         "type": "package",
         "dependencies": {
@@ -445,6 +454,7 @@
           "Domain": "1.0.0",
           "FluentValidation": "11.9.1",
           "FluentValidation.DependencyInjectionExtensions": "11.9.1",
+          "KastleWall.Encryption": "3.2.0",
           "MediatR": "12.5.0",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "Microsoft.Extensions.Configuration.Binder": "8.0.0",
@@ -517,6 +527,18 @@
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
         "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
         "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "KastleWall.Encryption/3.2.0": {
+      "sha512": "7zJ4pdiew2xeVoDYvBpX5Ngl0IW8mQ1klF8/R+dU0/kfopljXTlFKDnl8IMxcD4d7aHu/J8xTHUZ3r8xBppHMg==",
+      "type": "package",
+      "path": "kastlewall.encryption/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "kastlewall.encryption.3.2.0.nupkg.sha512",
+        "kastlewall.encryption.nuspec",
+        "lib/netstandard2.0/KastleWall.Security.dll"
       ]
     },
     "MediatR/12.5.0": {

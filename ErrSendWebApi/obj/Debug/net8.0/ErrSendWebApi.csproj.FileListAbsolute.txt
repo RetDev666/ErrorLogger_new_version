@@ -154,3 +154,5 @@
 /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/obj/Debug/net8.0/ErrSendWebApi.pdb
 /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/obj/Debug/net8.0/ErrSendWebApi.genruntimeconfig.cache
 /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/obj/Debug/net8.0/ref/ErrSendWebApi.dll
+/Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/obj/Debug/net8.0/ErrSendWebApi.sourcelink.json
+/Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/KastleWall.Security.dll

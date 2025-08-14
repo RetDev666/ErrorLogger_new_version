@@ -24,7 +24,7 @@ namespace ErrSendPersistensTelegram
                                 client.BaseAddress = new Uri(serverUrl);
                             });
 
-            services.AddSingleton<ITelegramService, TelegramService>();
+            services.AddTransient<ITelegramService, TelegramService>();
 
             return services;
         }

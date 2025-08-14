@@ -48,6 +48,14 @@
           }
         }
       },
+      "KastleWall.Encryption/3.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/KastleWall.Security.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.0"
+          }
+        }
+      },
       "MediatR/12.5.0": {
         "dependencies": {
           "MediatR.Contracts": "2.0.1",
@@ -297,6 +305,7 @@
           "Domain": "1.0.0",
           "FluentValidation": "11.9.1",
           "FluentValidation.DependencyInjectionExtensions": "11.9.1",
+          "KastleWall.Encryption": "3.2.0",
           "MediatR": "12.5.0",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "Microsoft.Extensions.Configuration.Binder": "8.0.0",
@@ -339,6 +348,13 @@
       "sha512": "sha512-3jJbFcCWhiXhrCKFPjKihzccmosv+CleYewd2zEYS4aaUHx9zQSgOvkYbWUGTbDwJ5j2nDWE0Pr1EQ2xY4pryg==",
       "path": "fluentvalidation.dependencyinjectionextensions/11.9.1",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.11.9.1.nupkg.sha512"
+    },
+    "KastleWall.Encryption/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7zJ4pdiew2xeVoDYvBpX5Ngl0IW8mQ1klF8/R+dU0/kfopljXTlFKDnl8IMxcD4d7aHu/J8xTHUZ3r8xBppHMg==",
+      "path": "kastlewall.encryption/3.2.0",
+      "hashPath": "kastlewall.encryption.3.2.0.nupkg.sha512"
     },
     "MediatR/12.5.0": {
       "type": "package",

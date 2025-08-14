@@ -18,11 +18,11 @@ namespace ErrSendPersistensTelegram.Services
         {
             if (token is not null)
             {
-                if (httpClient.DefaultRequestHeaders.Contains("Authorization"))
+                if (httpClient.DefaultRequestHeaders.Contains("Авторизація"))
                 {
-                    httpClient.DefaultRequestHeaders.Remove("Authorization");
+                    httpClient.DefaultRequestHeaders.Remove("Авторизація");
                 }
-                httpClient.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
+                httpClient.DefaultRequestHeaders.Add("Авторизація", "Носій " + token);
             }
             
             httpClient.DefaultRequestHeaders.Accept.Clear();

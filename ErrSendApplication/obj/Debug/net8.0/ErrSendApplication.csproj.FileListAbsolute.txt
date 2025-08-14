@@ -28,3 +28,4 @@
 /Users/mac/Downloads/ErrorSender_v1/ErrSendApplication/obj/Debug/net8.0/refint/ErrSendApplication.dll
 /Users/mac/Downloads/ErrorSender_v1/ErrSendApplication/obj/Debug/net8.0/ErrSendApplication.pdb
 /Users/mac/Downloads/ErrorSender_v1/ErrSendApplication/obj/Debug/net8.0/ref/ErrSendApplication.dll
+/Users/mac/Downloads/ErrorSender_v1/ErrSendApplication/obj/Debug/net8.0/ErrSendApplication.sourcelink.json

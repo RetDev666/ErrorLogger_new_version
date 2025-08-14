@@ -3,12 +3,12 @@ namespace ErrSendApplication.DTO
     public class TelegramMessageRequest
     {
         /// <summary>
-        /// Повідомлення для відправки
+        /// Message to send
         /// </summary>
-        public required string Message { get; set; } 
+        public required string Message { get; set; }
 
         /// <summary>
-        /// Додаткова інформація
+        /// Additional info
         /// </summary>
         public string? AdditionalInfo { get; set; }
     }

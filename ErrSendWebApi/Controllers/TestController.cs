@@ -1,21 +1,15 @@
-using ErrSendApplication.Interfaces.Telegram;
 using ErrSendApplication.DTO;
 using Microsoft.AspNetCore.Mvc;
-using ErrSendApplication.Interfaces.Authorization;
 using Microsoft.AspNetCore.Authorization;
+using ErrSendApplication.Handlers.Commands.GenerateJwtToken;
+using ErrSendApplication.Handlers.Commands.SendTelegramMessage;
 
 namespace ErrSendWebApi.Controllers
 {
     public class TestController : BaseController
     {
-        private readonly ITelegramService telegramService;
-        private readonly IJwtTokenService jwtTokenService;
-
-        public TestController(ITelegramService telegramService, IJwtTokenService jwtTokenService)
-        {
-            this.telegramService = telegramService;
-            this.jwtTokenService = jwtTokenService;
-        }
+        // Всі залежності через MediatR
+        public TestController() { }
 
         /// <summary>
         /// Відправити тестове повідомлення в Telegram
@@ -26,7 +20,7 @@ namespace ErrSendWebApi.Controllers
         [HttpPost("Відправка тестового повідомлення в Telegram")]
         public async Task<ActionResult> SendTelegramMessage([FromBody] TelegramMessageRequest request)
         {
-            await telegramService.SendErrorMessageAsync(request.Message, request.AdditionalInfo);
+            await Mediator.Send(new SendTelegramMessageCommand(request));
             return Ok(new { success = true, message = "Повідомлення відправлено" });
         }
 
@@ -44,11 +38,11 @@ namespace ErrSendWebApi.Controllers
         /// <summary>
         /// Згенерувати JWT токен (login, password, roles)
         /// </summary>
-        [HttpPost("jwt-token")]
+        [HttpPost("JWT Токен")]
         [ProducesResponseType(typeof(JwtTokenResponse), 200)]
-        public ActionResult GetJwtToken([FromBody] JwtTokenRequest request)
+        public async Task<ActionResult> GetJwtToken([FromBody] JwtTokenRequest request)
         {
-            var token = jwtTokenService.GenerateToken(request.Login, request.Password, request.Roles);
+            var token = await Mediator.Send(new GenerateJwtTokenCommand(request.Login, request.Password, request.Roles));
             return Ok(new JwtTokenResponse { Token = token });
         }
     }

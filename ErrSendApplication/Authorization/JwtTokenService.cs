@@ -20,20 +20,11 @@ namespace ErrSendApplication.Authorization
         public string GenerateToken(string login, string password, IEnumerable<string> roles)
         {
             if (string.IsNullOrWhiteSpace(secret) || secret.Length < 16)
-                throw new InvalidOperationException("JWT secret is missing or too short. Set a long secret in environment variable JWT_SECRET or appsettings.json!");
-
-            var pairKey = $"{login}:{password}";
-            lock (UsedLoginPasswordPairs)
-            {
-                if (UsedLoginPasswordPairs.Contains(pairKey))
-                    throw new InvalidOperationException("This login/password pair has already been used to generate a token. Please use unique credentials.");
-                UsedLoginPasswordPairs.Add(pairKey);
-            }
+                throw new InvalidOperationException("Секрет JWT відсутній або занадто короткий. Встановіть довгий секрет у змінній середовища JWT_SECRET або appsettings.json!");
 
             var claims = new List<Claim>
             {
                 new Claim("login", login),
-                new Claim("password", password),
                 new Claim(JwtRegisteredClaimNames.Exp, new DateTimeOffset(DateTime.UtcNow.AddMinutes(expiryMinutes)).ToUnixTimeSeconds().ToString())
             };
 

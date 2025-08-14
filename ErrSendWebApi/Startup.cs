@@ -9,6 +9,10 @@ using Microsoft.OpenApi.Models;
 using System.Reflection;
 using ErrSendApplication.Interfaces.Client;
 using ErrSendApplication.Interfaces.Service;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using ErrSendWebApi.TimeZone;
 
 namespace ErrSendWebApi
 {
@@ -51,11 +55,61 @@ namespace ErrSendWebApi
                     Version = "v1",
                     Description = "Error Sender API"
                 });
-
-                // c.OperationFilter<AddTimeAndTimeZoneOperationFilter>(); // Закоментовано, бо викликає помилки
+                
+                c.OperationFilter<AddTimeAndTimeZoneOperationFilter>(); // Закоментовано, бо викликає помилки
+                
+                // Додаємо підтримку JWT Bearer авторизації
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "JWT Authorization header using the Bearer scheme. Example: 'Bearer {token}'",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.Http,
+                    Scheme = "bearer",
+                    BearerFormat = "JWT"
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            }
+                        },
+                        new string[] {}
+                    }
+                });
             });
             services.AddSingleton<ICurrentService, CurrentService>();
             services.AddHttpContextAccessor();
+            var jwtConfig = Configuration.GetSection("JwtConfig").Get<ErrSendApplication.Common.Configs.JwtConfig>();
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtConfig.Secret)) // HMAC-SHA1
+                };
+                options.Events = new JwtBearerEvents
+                {
+                    OnChallenge = async context =>
+                    {
+                        // Більше не надсилаємо повідомлення у Telegram при 401
+                        await System.Threading.Tasks.Task.CompletedTask;
+                    }
+                };
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
