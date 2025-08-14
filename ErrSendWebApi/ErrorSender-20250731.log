@@ -1,0 +1,27 @@
+2025-07-31 13:34:16.081 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-31 13:34:16.965 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-31 13:34:17.050 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-31 13:34:17.052 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-31 13:34:17.052 +03:00 [INF] Hosting environment: Development
+2025-07-31 13:34:17.052 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-31 13:34:19.917 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger-ui-standalone-preset.js - null null
+2025-07-31 13:34:19.918 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-31 13:34:19.918 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.js - null null
+2025-07-31 13:34:19.917 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger-ui-bundle.js - null null
+2025-07-31 13:34:19.917 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.css - null null
+2025-07-31 13:34:19.918 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger-ui.css - null null
+2025-07-31 13:34:19.985 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-31 13:34:20.010 +03:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-07-31 13:34:20.014 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.css - 200 202 text/css 97.9046ms
+2025-07-31 13:34:20.027 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-07-31 13:34:20.027 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-07-31 13:34:20.031 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-07-31 13:34:20.032 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger-ui-bundle.js - 200 1466908 text/javascript 117.9067ms
+2025-07-31 13:34:20.032 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger-ui-standalone-preset.js - 200 229223 text/javascript 117.8081ms
+2025-07-31 13:34:20.032 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger-ui.css - 200 154949 text/css 117.7917ms
+2025-07-31 13:34:20.054 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 140.0928ms
+2025-07-31 13:34:20.057 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-31 13:34:20.078 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.js - 200 null application/javascript;charset=utf-8 163.6244ms
+2025-07-31 13:34:20.256 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-31 13:34:20.434 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 177.8084ms
+2025-07-31 14:14:19.329 +03:00 [INF] Application is shutting down...

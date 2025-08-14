@@ -1,0 +1,707 @@
+2025-07-24 12:53:18.052 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 12:53:18.228 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 12:53:18.230 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 12:53:18.230 +03:00 [INF] Hosting environment: Development
+2025-07-24 12:53:18.230 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 12:53:58.660 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/ - null null
+2025-07-24 12:53:58.844 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/ - 301 0 null 186.5357ms
+2025-07-24 12:53:58.849 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 12:53:58.942 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 92.93ms
+2025-07-24 12:53:58.966 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger-ui.css - null null
+2025-07-24 12:53:58.966 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 12:53:58.967 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger-ui-bundle.js - null null
+2025-07-24 12:53:58.967 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger-ui-standalone-preset.js - null null
+2025-07-24 12:53:58.968 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.css - null null
+2025-07-24 12:53:58.969 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.js - null null
+2025-07-24 12:53:58.970 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.js - 200 null application/javascript;charset=utf-8 0.9049ms
+2025-07-24 12:53:58.982 +03:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-07-24 12:53:58.982 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.css - 200 202 text/css 14.0184ms
+2025-07-24 12:53:59.001 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-07-24 12:53:59.001 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-07-24 12:53:59.001 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-07-24 12:53:59.006 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger-ui-bundle.js - 200 1466908 text/javascript 39.1011ms
+2025-07-24 12:53:59.006 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger-ui-standalone-preset.js - 200 229223 text/javascript 38.9519ms
+2025-07-24 12:53:59.006 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger-ui.css - 200 154949 text/css 40.2349ms
+2025-07-24 12:53:59.010 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 12:53:59.014 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 47.4993ms
+2025-07-24 12:53:59.016 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 12:53:59.244 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 12:53:59.270 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/favicon-32x32.png - null null
+2025-07-24 12:53:59.271 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-07-24 12:53:59.271 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/favicon-32x32.png - 200 628 image/png 0.6625ms
+2025-07-24 12:53:59.400 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 155.902ms
+2025-07-24 12:54:41.423 +03:00 [INF] Application is shutting down...
+2025-07-24 12:54:47.328 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 12:54:47.531 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 12:54:47.533 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 12:54:47.533 +03:00 [INF] Hosting environment: Development
+2025-07-24 12:54:47.533 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 12:54:56.228 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 12:54:56.361 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 135.2165ms
+2025-07-24 12:54:56.379 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 12:54:56.529 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 12:54:56.533 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 153.8446ms
+2025-07-24 12:54:56.536 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 12:54:56.646 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 12:54:56.805 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 158.6552ms
+2025-07-24 13:04:52.989 +03:00 [INF] Application is shutting down...
+2025-07-24 13:08:39.107 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:08:39.276 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:08:39.278 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:08:39.278 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:08:39.278 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:08:42.753 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:08:42.814 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:08:42.859 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 107.7723ms
+2025-07-24 13:08:42.866 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 13:08:42.993 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:08:43.161 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 168.1965ms
+2025-07-24 13:09:34.024 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 181
+2025-07-24 13:09:34.140 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:09:34.148 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:09:34.193 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 409 null application/json 168.257ms
+2025-07-24 13:10:24.536 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 13:10:24.571 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:10:24.574 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:10:24.596 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 13:10:24.648 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 13:10:24.925 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 270.8016ms.
+2025-07-24 13:10:24.936 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-07-24 13:10:24.945 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 343.8099ms
+2025-07-24 13:10:24.945 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:10:24.945 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 408.854ms
+2025-07-24 13:10:50.599 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 181
+2025-07-24 13:10:50.599 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:10:50.601 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:10:50.602 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 409 null application/json 3.366ms
+2025-07-24 13:10:52.794 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 181
+2025-07-24 13:10:52.794 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:10:52.796 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:10:52.798 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 409 null application/json 3.7175ms
+2025-07-24 13:10:53.679 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 181
+2025-07-24 13:10:53.679 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:10:53.679 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:10:53.680 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 409 null application/json 1.2152ms
+2025-07-24 13:11:14.877 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 181
+2025-07-24 13:11:14.878 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:11:14.878 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:11:14.879 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 409 null application/json 1.1602ms
+2025-07-24 13:11:21.023 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-24 13:11:21.024 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:11:21.024 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:11:21.024 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 409 null application/json 1.0937ms
+2025-07-24 13:12:10.710 +03:00 [INF] Application is shutting down...
+2025-07-24 13:12:56.920 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:12:56.994 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:12:56.996 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:12:56.996 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:12:56.996 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:13:03.009 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:13:03.135 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 127.2993ms
+2025-07-24 13:13:03.154 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:13:03.305 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:13:03.308 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 154.273ms
+2025-07-24 13:13:03.311 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 13:13:03.429 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:13:03.599 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 170.3899ms
+2025-07-24 13:13:19.010 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 13:13:19.015 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:13:19.017 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:13:19.034 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 13:13:19.089 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 13:13:19.146 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 47.9747ms.
+2025-07-24 13:13:19.173 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-07-24 13:13:19.273 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 233.5925ms
+2025-07-24 13:13:19.273 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:13:19.273 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 263.2431ms
+2025-07-24 13:13:31.036 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-24 13:13:31.038 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:13:31.045 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:13:31.065 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 409 null application/json 28.652ms
+2025-07-24 13:16:36.338 +03:00 [INF] Application is shutting down...
+2025-07-24 13:16:41.927 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 13:16:42.125 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:16:42.141 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:16:42.143 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:16:42.143 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:16:42.143 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:16:49.774 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:16:49.904 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 132.0908ms
+2025-07-24 13:16:49.921 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:16:49.955 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:16:50.024 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:16:50.026 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:16:51.132 +03:00 [INF] Received HTTP response headers after 1100.9198ms - 200
+2025-07-24 13:16:51.133 +03:00 [INF] End processing HTTP request after 1116.0433ms - 200
+2025-07-24 13:16:51.146 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 500 null application/json 1224.362ms
+2025-07-24 13:16:51.249 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:16:51.426 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 176.7035ms
+2025-07-24 13:17:17.805 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 13:17:17.812 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:17:17.815 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:17:17.815 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:17:17.901 +03:00 [INF] Received HTTP response headers after 85.8041ms - 200
+2025-07-24 13:17:17.901 +03:00 [INF] End processing HTTP request after 86.3116ms - 200
+2025-07-24 13:17:17.903 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 500 null application/json 97.3997ms
+2025-07-24 13:17:37.958 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-24 13:17:37.960 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:17:37.963 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:17:37.963 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:17:38.020 +03:00 [INF] Received HTTP response headers after 57.3245ms - 200
+2025-07-24 13:17:38.020 +03:00 [INF] End processing HTTP request after 57.786ms - 200
+2025-07-24 13:17:38.021 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 500 null application/json 63.2128ms
+2025-07-24 13:21:11.468 +03:00 [INF] Application is shutting down...
+2025-07-24 13:21:15.587 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 13:21:15.824 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:21:15.838 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:21:15.840 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:21:15.840 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:21:15.840 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:21:29.772 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:21:30.037 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 265.5833ms
+2025-07-24 13:21:30.057 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:21:30.094 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:21:30.131 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 74.764ms
+2025-07-24 13:21:30.135 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 13:21:30.282 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:21:30.455 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 173.4448ms
+2025-07-24 13:21:52.655 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 13:21:52.659 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:21:52.662 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:21:52.678 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 13:21:52.733 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 13:21:52.883 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 55.7875ms.
+2025-07-24 13:21:52.895 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-07-24 13:21:52.906 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 223.4372ms
+2025-07-24 13:21:52.907 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:21:52.907 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 252.2293ms
+2025-07-24 13:22:01.346 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-24 13:22:01.348 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:22:01.357 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:22:01.363 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:22:01.363 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 16.9278ms
+2025-07-24 13:22:32.963 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-24 13:22:32.964 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:22:32.967 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:22:32.967 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:22:32.967 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 3.8712ms
+2025-07-24 13:22:33.744 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-24 13:22:33.744 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:22:33.746 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:22:33.746 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:22:33.746 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 2.1903ms
+2025-07-24 13:24:32.610 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-24 13:24:32.611 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:24:32.611 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:24:32.611 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:24:32.611 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 0.8085ms
+2025-07-24 13:24:38.701 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/ThrowError/Текст помилки - application/json 30
+2025-07-24 13:24:38.701 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:24:38.701 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:24:38.701 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:24:38.702 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/ThrowError/Текст помилки - 401 0 null 0.9465ms
+2025-07-24 13:25:39.158 +03:00 [INF] Application is shutting down...
+2025-07-24 13:25:44.485 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 13:25:44.722 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:25:44.739 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:25:44.741 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:25:44.741 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:25:44.741 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:25:46.686 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:25:46.813 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 128.2773ms
+2025-07-24 13:25:46.839 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:25:46.874 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:25:46.908 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 69.6048ms
+2025-07-24 13:25:46.912 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 13:25:47.020 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:25:47.201 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 180.5279ms
+2025-07-24 13:26:09.004 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 13:26:09.009 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:26:09.012 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:26:09.028 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 13:26:09.083 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 13:26:09.117 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 28.5484ms.
+2025-07-24 13:26:09.125 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-07-24 13:26:09.131 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 99.8146ms
+2025-07-24 13:26:09.132 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:26:09.132 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 127.6794ms
+2025-07-24 13:26:15.175 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-24 13:26:15.177 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:26:15.185 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:26:15.190 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:26:15.191 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 15.9263ms
+2025-07-24 13:27:43.148 +03:00 [INF] Application is shutting down...
+2025-07-24 13:27:48.563 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 13:27:48.756 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:27:48.767 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:27:48.769 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:27:48.769 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:27:48.770 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:27:56.939 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:27:57.068 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 130.9605ms
+2025-07-24 13:27:57.087 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:27:57.119 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:27:57.154 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 67.5733ms
+2025-07-24 13:27:57.157 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 13:27:57.272 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:27:57.431 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 159.3508ms
+2025-07-24 13:28:16.429 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 13:28:16.433 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:28:16.436 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:28:16.453 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 13:28:16.508 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 13:28:16.544 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 29.7683ms.
+2025-07-24 13:28:16.552 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-07-24 13:28:16.558 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 102.2524ms
+2025-07-24 13:28:16.559 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:28:16.559 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 130.2847ms
+2025-07-24 13:28:23.739 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-24 13:28:23.746 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:28:23.757 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:28:23.786 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:28:23.787 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:28:24.191 +03:00 [INF] Received HTTP response headers after 399.558ms - 200
+2025-07-24 13:28:24.192 +03:00 [INF] End processing HTTP request after 408.8161ms - 200
+2025-07-24 13:28:24.199 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:28:24.210 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 470.6281ms
+2025-07-24 13:29:13.347 +03:00 [INF] Application is shutting down...
+2025-07-24 13:29:17.978 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 13:29:18.411 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:29:18.426 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:29:18.427 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:29:18.428 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:29:18.428 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:29:23.776 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:29:23.912 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 138.1036ms
+2025-07-24 13:29:23.936 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:29:23.997 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:29:24.143 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 206.9658ms
+2025-07-24 13:29:24.146 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 13:29:24.262 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:29:24.437 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 174.3221ms
+2025-07-24 13:29:29.409 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-24 13:29:29.414 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:29:29.422 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:29:29.460 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:29:29.461 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:29:29.841 +03:00 [INF] Received HTTP response headers after 374.9691ms - 200
+2025-07-24 13:29:29.842 +03:00 [INF] End processing HTTP request after 386.6786ms - 200
+2025-07-24 13:29:29.850 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:29:29.861 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 451.5958ms
+2025-07-24 13:32:09.036 +03:00 [INF] Application is shutting down...
+2025-07-24 13:32:12.814 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 13:32:13.077 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:32:13.090 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:32:13.091 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:32:13.092 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:32:13.092 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:32:15.922 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:32:16.073 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 152.3897ms
+2025-07-24 13:32:16.094 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:32:16.127 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:32:16.162 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 67.7337ms
+2025-07-24 13:32:16.165 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 13:32:16.266 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:32:16.441 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 175.0386ms
+2025-07-24 13:32:25.718 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-24 13:32:25.723 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:32:25.730 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:32:25.768 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:32:25.770 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:32:26.121 +03:00 [INF] Received HTTP response headers after 337.9223ms - 200
+2025-07-24 13:32:26.122 +03:00 [INF] End processing HTTP request after 358.3042ms - 200
+2025-07-24 13:32:26.133 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:32:26.144 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 425.9717ms
+2025-07-24 13:32:54.854 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 13:32:54.856 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:32:54.859 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:32:54.875 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 13:32:54.925 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 13:32:54.963 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 31.2538ms.
+2025-07-24 13:32:54.971 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-07-24 13:32:54.978 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 98.1099ms
+2025-07-24 13:32:54.978 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:32:54.978 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 124.5282ms
+2025-07-24 13:34:32.227 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 102
+2025-07-24 13:34:32.227 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:34:32.229 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:34:32.230 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:34:32.230 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:34:32.531 +03:00 [INF] Received HTTP response headers after 300.5582ms - 200
+2025-07-24 13:34:32.531 +03:00 [INF] End processing HTTP request after 301.0324ms - 200
+2025-07-24 13:34:32.531 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:34:32.531 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 304.7775ms
+2025-07-24 13:34:58.277 +03:00 [INF] Application is shutting down...
+2025-07-24 13:36:03.427 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 13:36:03.731 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:36:03.742 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:36:03.743 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:36:03.743 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:36:03.743 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:36:12.460 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:36:12.592 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 134.2921ms
+2025-07-24 13:36:12.715 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:36:12.776 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:36:12.811 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 166.4184ms
+2025-07-24 13:36:12.814 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 13:36:12.966 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:36:13.135 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 169.6019ms
+2025-07-24 13:36:34.224 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 102
+2025-07-24 13:36:34.229 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:36:34.237 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:36:34.275 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:36:34.276 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:36:34.740 +03:00 [INF] Received HTTP response headers after 459.2209ms - 200
+2025-07-24 13:36:34.742 +03:00 [INF] End processing HTTP request after 471.6311ms - 200
+2025-07-24 13:36:34.749 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:36:34.762 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 537.9964ms
+2025-07-24 13:38:11.528 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 179
+2025-07-24 13:38:11.628 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:38:11.644 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:38:11.645 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:38:11.645 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:38:12.129 +03:00 [INF] Received HTTP response headers after 482.8851ms - 200
+2025-07-24 13:38:12.129 +03:00 [INF] End processing HTTP request after 483.3991ms - 200
+2025-07-24 13:38:12.129 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:38:12.129 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 601.4017ms
+2025-07-24 13:40:13.345 +03:00 [INF] Application is shutting down...
+2025-07-24 13:40:19.155 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 13:40:19.380 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:40:19.393 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:40:19.395 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:40:19.395 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:40:19.396 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:40:28.926 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:40:29.056 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 132.038ms
+2025-07-24 13:40:29.075 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:40:29.103 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:40:29.148 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 72.8003ms
+2025-07-24 13:40:29.152 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 13:40:29.270 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:40:29.488 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 218.7489ms
+2025-07-24 13:40:50.384 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 156
+2025-07-24 13:40:50.389 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:40:50.396 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:40:50.434 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:40:50.435 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:40:50.789 +03:00 [INF] Received HTTP response headers after 348.6939ms - 200
+2025-07-24 13:40:50.790 +03:00 [INF] End processing HTTP request after 360.0182ms - 200
+2025-07-24 13:40:50.797 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:40:50.809 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 424.7432ms
+2025-07-24 13:42:37.919 +03:00 [INF] Application is shutting down...
+2025-07-24 13:42:44.627 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 13:42:44.876 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:42:44.890 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:42:44.892 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:42:44.892 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:42:44.892 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:42:48.924 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:42:49.135 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 214.5018ms
+2025-07-24 13:42:49.157 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:42:49.190 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:42:49.233 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 76.4052ms
+2025-07-24 13:42:49.236 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 13:42:49.359 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:42:49.554 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 195.3578ms
+2025-07-24 13:42:55.752 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-24 13:42:55.785 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:42:55.795 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:42:55.832 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:42:55.833 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:42:56.209 +03:00 [INF] Received HTTP response headers after 370.9058ms - 200
+2025-07-24 13:42:56.211 +03:00 [INF] End processing HTTP request after 383.3263ms - 200
+2025-07-24 13:42:56.219 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:42:56.236 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 484.6944ms
+2025-07-24 13:45:15.385 +03:00 [INF] Application is shutting down...
+2025-07-24 13:45:20.397 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 13:45:20.734 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:45:20.750 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:45:20.752 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:45:20.752 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:45:20.752 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:45:26.188 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:45:26.463 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 277.1573ms
+2025-07-24 13:45:26.483 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:45:26.518 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:45:26.555 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 71.9055ms
+2025-07-24 13:45:26.559 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 13:45:26.668 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:45:26.845 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 177.2128ms
+2025-07-24 13:45:47.097 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 13:45:47.102 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:45:47.104 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:45:47.121 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 13:45:47.176 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 13:45:47.212 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 30.2234ms.
+2025-07-24 13:45:47.221 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-07-24 13:45:47.232 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 106.1619ms
+2025-07-24 13:45:47.232 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:45:47.232 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 135.5913ms
+2025-07-24 13:46:29.109 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 188
+2025-07-24 13:46:29.112 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:46:29.185 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:46:29.187 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-07-24 13:46:29.188 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 403 0 null 78.6293ms
+2025-07-24 13:46:42.625 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 188
+2025-07-24 13:46:42.625 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:46:42.637 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:46:42.638 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-07-24 13:46:42.638 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 403 0 null 13.6396ms
+2025-07-24 13:46:50.133 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 188
+2025-07-24 13:46:50.133 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:46:50.135 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:46:50.159 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:46:50.160 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:46:50.615 +03:00 [INF] Received HTTP response headers after 449.7387ms - 200
+2025-07-24 13:46:50.616 +03:00 [INF] End processing HTTP request after 460.175ms - 200
+2025-07-24 13:46:50.623 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:46:50.635 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 502.0601ms
+2025-07-24 13:47:09.833 +03:00 [INF] Application is shutting down...
+2025-07-24 13:47:13.734 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 13:47:13.932 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:47:13.945 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:47:13.947 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:47:13.947 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:47:13.947 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:47:21.416 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:47:21.547 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 132.058ms
+2025-07-24 13:47:21.564 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:47:21.597 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:47:21.665 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:47:21.666 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:47:21.993 +03:00 [INF] Received HTTP response headers after 322.0975ms - 200
+2025-07-24 13:47:21.994 +03:00 [INF] End processing HTTP request after 335.8964ms - 200
+2025-07-24 13:47:22.010 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 500 null application/json 446.6483ms
+2025-07-24 13:47:22.116 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:47:22.294 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 177.7074ms
+2025-07-24 13:47:34.233 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 78
+2025-07-24 13:47:34.238 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:47:34.245 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:47:34.245 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:47:34.341 +03:00 [INF] Received HTTP response headers after 96.1856ms - 200
+2025-07-24 13:47:34.341 +03:00 [INF] End processing HTTP request after 96.8036ms - 200
+2025-07-24 13:47:34.343 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 500 null application/json 109.9548ms
+2025-07-24 13:47:51.911 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 13:47:51.913 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:47:51.916 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:47:51.917 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:47:51.985 +03:00 [INF] Received HTTP response headers after 68.5164ms - 200
+2025-07-24 13:47:51.985 +03:00 [INF] End processing HTTP request after 68.9825ms - 200
+2025-07-24 13:47:51.986 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 500 null application/json 74.9779ms
+2025-07-24 13:48:01.555 +03:00 [INF] Application is shutting down...
+2025-07-24 13:48:05.537 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 13:48:05.724 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:48:05.735 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:48:05.736 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:48:05.736 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:48:05.736 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:48:18.917 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:48:19.050 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 134.4886ms
+2025-07-24 13:48:19.067 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:48:19.102 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:48:19.140 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 72.5036ms
+2025-07-24 13:48:19.143 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 13:48:19.259 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:48:19.441 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 182.3598ms
+2025-07-24 13:48:41.822 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 13:48:41.826 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:48:41.829 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:48:41.846 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 13:48:41.901 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 13:48:41.936 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 28.7985ms.
+2025-07-24 13:48:41.946 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-07-24 13:48:41.954 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 102.9503ms
+2025-07-24 13:48:41.954 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:48:41.954 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 132.4298ms
+2025-07-24 13:49:06.324 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 53
+2025-07-24 13:49:06.326 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:49:06.334 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:49:06.357 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:49:06.359 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:49:06.781 +03:00 [INF] Received HTTP response headers after 418.3004ms - 200
+2025-07-24 13:49:06.782 +03:00 [INF] End processing HTTP request after 427.5928ms - 200
+2025-07-24 13:49:06.790 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 13:49:06.801 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 477.0535ms
+2025-07-24 13:52:08.083 +03:00 [INF] Application is shutting down...
+2025-07-24 13:52:15.034 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 13:52:15.368 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 13:52:15.382 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 13:52:15.383 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 13:52:15.384 +03:00 [INF] Hosting environment: Development
+2025-07-24 13:52:15.384 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 13:52:18.672 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 13:52:18.826 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 154.6486ms
+2025-07-24 13:52:18.874 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 13:52:18.927 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 13:52:18.967 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 93.3431ms
+2025-07-24 13:52:18.976 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 13:52:19.105 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 13:52:19.278 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 173.3783ms
+2025-07-24 13:52:37.762 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 13:52:37.775 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:52:37.778 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:52:37.795 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 13:52:37.852 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 13:52:37.888 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 30.5157ms.
+2025-07-24 13:52:37.898 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-07-24 13:52:37.906 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 106.4056ms
+2025-07-24 13:52:37.906 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:52:37.907 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 144.5388ms
+2025-07-24 13:53:11.402 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 121
+2025-07-24 13:53:11.404 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:53:11.474 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 13:53:11.476 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-07-24 13:53:11.477 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 403 0 null 74.9015ms
+2025-07-24 13:54:17.240 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 13:54:17.241 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:54:17.242 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:54:17.242 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 13:54:17.243 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 13:54:17.263 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 20.5957ms
+2025-07-24 13:54:17.336 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:54:17.388 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 409 null application/json 147.7982ms
+2025-07-24 13:54:29.899 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 13:54:29.900 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:54:29.901 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:54:29.901 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 13:54:29.902 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 13:54:29.903 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.8153ms.
+2025-07-24 13:54:29.970 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-07-24 13:54:29.971 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 69.2383ms
+2025-07-24 13:54:29.971 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 13:54:29.971 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 71.7537ms
+2025-07-24 13:54:42.291 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 121
+2025-07-24 13:54:42.291 +03:00 [INF] CORS policy execution successful.
+2025-07-24 13:54:42.293 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-07-24 13:54:42.299 +03:00 [INF] Route matched with {action = "SendTelegramMessage", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendTelegramMessage(ErrSendApplication.DTO.TelegramMessageRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 13:54:42.303 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 13:54:42.318 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:54:42.319 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 13:54:42.682 +03:00 [INF] Received HTTP response headers after 359.3605ms - 200
+2025-07-24 13:54:42.684 +03:00 [INF] End processing HTTP request after 368.748ms - 200
+2025-07-24 13:54:42.690 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 386.2389ms.
+2025-07-24 13:54:42.694 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-24 13:54:42.707 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) in 407.2629ms
+2025-07-24 13:54:42.709 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-07-24 13:54:42.716 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 200 null application/json; charset=utf-8 425.3894ms
+2025-07-24 14:09:33.182 +03:00 [INF] Application is shutting down...
+2025-07-24 14:19:04.881 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 14:19:05.166 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 14:19:05.196 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 14:19:05.199 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 14:19:05.199 +03:00 [INF] Hosting environment: Development
+2025-07-24 14:19:05.199 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 14:19:11.056 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 14:19:11.184 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 129.5357ms
+2025-07-24 14:19:11.204 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 14:19:11.239 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 14:19:11.278 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 73.2608ms
+2025-07-24 14:19:11.281 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 14:19:11.412 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 14:19:11.586 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 174.7903ms
+2025-07-24 14:19:30.967 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 14:19:30.972 +03:00 [INF] CORS policy execution successful.
+2025-07-24 14:19:30.976 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 14:19:30.992 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 14:19:31.050 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 14:19:31.088 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 32.4251ms.
+2025-07-24 14:19:31.099 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-07-24 14:19:31.109 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 112.3206ms
+2025-07-24 14:19:31.109 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 14:19:31.109 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 142.0906ms
+2025-07-24 14:20:12.791 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 178
+2025-07-24 14:20:12.808 +03:00 [INF] CORS policy execution successful.
+2025-07-24 14:20:12.991 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-07-24 14:20:12.997 +03:00 [INF] Route matched with {action = "SendTelegramMessage", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendTelegramMessage(ErrSendApplication.DTO.TelegramMessageRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 14:20:13.003 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 14:20:13.016 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 14:20:13.017 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-07-24 14:20:13.412 +03:00 [INF] Received HTTP response headers after 390.9688ms - 200
+2025-07-24 14:20:13.414 +03:00 [INF] End processing HTTP request after 400.5046ms - 200
+2025-07-24 14:20:13.421 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 417.6955ms.
+2025-07-24 14:20:13.426 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-24 14:20:13.441 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) in 443.3958ms
+2025-07-24 14:20:13.442 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-07-24 14:20:13.450 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 200 null application/json; charset=utf-8 658.347ms
+2025-07-24 14:39:23.864 +03:00 [INF] Application is shutting down...
+2025-07-24 14:39:31.620 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 14:39:31.942 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 14:39:31.957 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 14:39:31.959 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 14:39:31.960 +03:00 [INF] Hosting environment: Development
+2025-07-24 14:39:31.960 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 14:39:34.173 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-07-24 14:39:34.313 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 142.3223ms
+2025-07-24 14:39:34.344 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-07-24 14:39:34.377 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-24 14:39:34.409 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 65.3345ms
+2025-07-24 14:39:34.414 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-07-24 14:39:34.524 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-07-24 14:39:34.708 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 183.6321ms
+2025-07-24 14:40:03.631 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-07-24 14:40:03.635 +03:00 [INF] CORS policy execution successful.
+2025-07-24 14:40:03.638 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 14:40:03.654 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-07-24 14:40:03.711 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-07-24 14:40:03.768 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 42.2749ms.
+2025-07-24 14:40:03.882 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-07-24 14:40:03.893 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 233.6987ms
+2025-07-24 14:40:03.894 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-07-24 14:40:03.894 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 263.2806ms
+2025-07-24 14:41:04.129 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 55
+2025-07-24 14:41:04.131 +03:00 [INF] CORS policy execution successful.
+2025-07-24 14:41:04.162 +03:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.Text.Json.JsonReaderException: '0xC8' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at Microsoft.IdentityModel.Tokens.Json.JsonSerializerPrimitives.IsReaderAtTokenType(Utf8JsonReader& reader, JsonTokenType tokenType, Boolean advanceReader)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateHeaderClaimSet(ReadOnlySpan`1 byteSpan)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-07-24 14:41:04.346 +03:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-07-24 14:41:04.351 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-07-24 14:41:04.358 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-24 14:41:04.358 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 229.095ms
+2025-07-24 14:41:24.981 +03:00 [INF] Application is shutting down...
+2025-07-24 14:41:29.771 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-24 14:41:30.082 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-07-24 14:41:30.095 +03:00 [INF] Now listening on: http://localhost:5001
+2025-07-24 14:41:30.097 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-24 14:41:30.097 +03:00 [INF] Hosting environment: Development
+2025-07-24 14:41:30.098 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-07-24 14:42:13.553 +03:00 [INF] Application is shutting down...
