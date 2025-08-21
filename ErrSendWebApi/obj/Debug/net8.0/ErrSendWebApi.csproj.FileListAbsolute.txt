@@ -165,3 +165,4 @@
 /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/xunit.core.dll
 /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/xunit.execution.dotnet.dll
 /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/Xunit.SkippableFact.dll
+/Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/FluentValidation.AspNetCore.dll

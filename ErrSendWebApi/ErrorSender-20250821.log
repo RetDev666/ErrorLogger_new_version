@@ -291,3 +291,214 @@ RolesAuthorizationRequirement:User.IsInRole must be true for one of the followin
 2025-08-21 13:11:01.832 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) in 554.6181ms
 2025-08-21 13:11:01.834 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
 2025-08-21 13:11:01.843 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 200 null application/json; charset=utf-8 646.6736ms
+2025-08-21 13:21:58.697 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-08-21 13:21:58.698 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:21:58.700 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:21:58.700 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-21 13:21:58.701 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-08-21 13:21:58.703 +03:00 [INF] Запити: GenerateJwtTokenCommand --- {"Login":"Admin","Password":"Admin","Roles":["Admin"],"$type":"GenerateJwtTokenCommand"} 
+2025-08-21 13:21:58.705 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.628ms.
+2025-08-21 13:21:58.706 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-08-21 13:21:58.706 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 5.6823ms
+2025-08-21 13:21:58.706 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:21:58.706 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 8.5947ms
+2025-08-21 13:22:02.476 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 75
+2025-08-21 13:22:02.476 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:22:02.477 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:22:02.477 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-21 13:22:02.478 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-08-21 13:22:02.478 +03:00 [INF] Запити: GenerateJwtTokenCommand --- {"Login":"Admin","Password":"Admin","Roles":["Admin"],"$type":"GenerateJwtTokenCommand"} 
+2025-08-21 13:22:02.479 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.1117ms.
+2025-08-21 13:22:02.479 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-08-21 13:22:02.479 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 2.2911ms
+2025-08-21 13:22:02.479 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:22:02.479 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 3.3665ms
+2025-08-21 13:22:22.055 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 73
+2025-08-21 13:22:22.056 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:22:22.056 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:22:22.056 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-21 13:22:22.057 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-08-21 13:22:22.057 +03:00 [INF] Запити: GenerateJwtTokenCommand --- {"Login":"User","Password":"Pass","Roles":["Admin"],"$type":"GenerateJwtTokenCommand"} 
+2025-08-21 13:22:22.057 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.2402ms.
+2025-08-21 13:22:22.057 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-08-21 13:22:22.058 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 1.5201ms
+2025-08-21 13:22:22.058 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:22:22.058 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 2.845ms
+2025-08-21 13:22:29.086 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 73
+2025-08-21 13:22:29.086 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:22:29.087 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:22:29.087 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-21 13:22:29.088 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-08-21 13:22:29.088 +03:00 [INF] Запити: GenerateJwtTokenCommand --- {"Login":"User","Password":"Pass","Roles":["Admin"],"$type":"GenerateJwtTokenCommand"} 
+2025-08-21 13:22:29.089 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.4613ms.
+2025-08-21 13:22:29.089 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-08-21 13:22:29.089 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 2.3317ms
+2025-08-21 13:22:29.089 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:22:29.090 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 3.4657ms
+2025-08-21 13:23:02.535 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/ThrowError/Текст помилки - application/json 159
+2025-08-21 13:23:02.535 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:23:02.538 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.ThrowError (ErrSendWebApi)'
+2025-08-21 13:23:02.539 +03:00 [INF] Route matched with {action = "ThrowError", controller = "Test"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult ThrowError(ErrSendApplication.DTO.ErrorRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-21 13:23:02.543 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.ThrowError (ErrSendWebApi) - Validation state: "Valid"
+2025-08-21 13:23:02.544 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.ThrowError (ErrSendWebApi) in 4.4464ms
+2025-08-21 13:23:02.544 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.ThrowError (ErrSendWebApi)'
+2025-08-21 13:23:02.605 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-08-21 13:23:02.605 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-08-21 13:23:03.267 +03:00 [INF] Received HTTP response headers after 662.3551ms - 200
+2025-08-21 13:23:03.267 +03:00 [INF] End processing HTTP request after 662.6551ms - 200
+2025-08-21 13:23:03.267 +03:00 [INF] Telegram message sent. ChatId: -4795023420, Length: 249
+2025-08-21 13:23:03.273 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/ThrowError/Текст помилки - 500 null application/json 738.0421ms
+2025-08-21 13:23:24.605 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-08-21 13:23:24.605 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 0.535ms
+2025-08-21 13:23:24.629 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-08-21 13:23:24.630 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 0.6407ms
+2025-08-21 13:23:24.630 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-08-21 13:23:24.775 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-08-21 13:23:24.782 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.3161ms
+2025-08-21 13:23:43.000 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 73
+2025-08-21 13:23:43.001 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:23:43.001 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:23:43.001 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-21 13:23:43.088 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-08-21 13:23:43.104 +03:00 [INF] Запити: GenerateJwtTokenCommand --- {"Login":"User","Password":"Pass","Roles":["Admin"],"$type":"GenerateJwtTokenCommand"} 
+2025-08-21 13:23:43.105 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 16.1765ms.
+2025-08-21 13:23:43.115 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-08-21 13:23:43.120 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 119.0868ms
+2025-08-21 13:23:43.120 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:23:43.120 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 120.0861ms
+2025-08-21 13:30:11.601 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 43
+2025-08-21 13:30:11.602 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:30:11.638 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-08-21 13:30:11.647 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-08-21 13:30:11.647 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 45.549ms
+2025-08-21 13:32:18.392 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 43
+2025-08-21 13:32:18.392 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:32:18.393 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-08-21 13:32:18.394 +03:00 [INF] Route matched with {action = "SendTelegramMessage", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendTelegramMessage(ErrSendApplication.DTO.TelegramMessageRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-21 13:32:18.394 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) - Validation state: "Valid"
+2025-08-21 13:32:18.395 +03:00 [INF] Запити: SendTelegramMessageCommand --- {"Request":{"Message":"","AdditionalInfo":"","$type":"TelegramMessageRequest"},"$type":"SendTelegramMessageCommand"} 
+2025-08-21 13:32:18.409 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14.9018ms.
+2025-08-21 13:32:18.409 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-21 13:32:18.409 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) in 15.656ms
+2025-08-21 13:32:18.409 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-08-21 13:32:18.410 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 200 null application/json; charset=utf-8 17.2725ms
+2025-08-21 13:32:50.893 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 45
+2025-08-21 13:32:50.893 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:32:50.894 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-08-21 13:32:50.894 +03:00 [INF] Route matched with {action = "SendTelegramMessage", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendTelegramMessage(ErrSendApplication.DTO.TelegramMessageRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-21 13:32:50.894 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) - Validation state: "Valid"
+2025-08-21 13:32:50.895 +03:00 [INF] Запити: SendTelegramMessageCommand --- {"Request":{"Message":" ","AdditionalInfo":" ","$type":"TelegramMessageRequest"},"$type":"SendTelegramMessageCommand"} 
+2025-08-21 13:32:50.898 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.9409ms.
+2025-08-21 13:32:50.898 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-21 13:32:50.898 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) in 3.8955ms
+2025-08-21 13:32:50.898 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-08-21 13:32:50.898 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 200 null application/json; charset=utf-8 5.2267ms
+2025-08-21 13:37:24.556 +03:00 [INF] Application is shutting down...
+2025-08-21 13:42:52.795 +03:00 [INF] User profile is available. Using '/Users/mac/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 13:42:53.021 +03:00 [WRN] The WebRootPath was not found: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/wwwroot. Static files may be unavailable.
+2025-08-21 13:42:53.037 +03:00 [INF] Now listening on: http://localhost:5001
+2025-08-21 13:42:53.039 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 13:42:53.040 +03:00 [INF] Hosting environment: Development
+2025-08-21 13:42:53.040 +03:00 [INF] Content root path: /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi
+2025-08-21 13:43:00.543 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-08-21 13:43:00.710 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 167.7198ms
+2025-08-21 13:43:00.728 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-08-21 13:43:00.734 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger-ui-bundle.js - null null
+2025-08-21 13:43:00.908 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-08-21 13:43:00.911 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-08-21 13:43:00.915 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger-ui-bundle.js - 200 1466908 text/javascript 180.8393ms
+2025-08-21 13:43:00.946 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 218.0212ms
+2025-08-21 13:43:00.949 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-08-21 13:43:01.121 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-08-21 13:43:01.132 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/favicon-32x32.png - null null
+2025-08-21 13:43:01.133 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-08-21 13:43:01.134 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/favicon-32x32.png - 200 628 image/png 1.6086ms
+2025-08-21 13:43:01.319 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 197.3522ms
+2025-08-21 13:43:22.618 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 73
+2025-08-21 13:43:22.623 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:43:22.627 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:43:22.651 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-21 13:43:22.731 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-08-21 13:43:22.746 +03:00 [INF] Запити: GenerateJwtTokenCommand --- {"Login":"User","Password":"Pass","Roles":["Admin"],"$type":"GenerateJwtTokenCommand"} 
+2025-08-21 13:43:22.796 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 58.5036ms.
+2025-08-21 13:43:22.805 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-08-21 13:43:22.816 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 158.7191ms
+2025-08-21 13:43:22.816 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:43:22.816 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 197.642ms
+2025-08-21 13:44:04.182 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 183
+2025-08-21 13:44:04.185 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:44:04.217 +03:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.Text.Json.JsonReaderException: '0xC8' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at Microsoft.IdentityModel.Tokens.Json.JsonSerializerPrimitives.IsReaderAtTokenType(Utf8JsonReader& reader, JsonTokenType tokenType, Boolean advanceReader)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateHeaderClaimSet(ReadOnlySpan`1 byteSpan)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2025-08-21 13:44:04.271 +03:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2025-08-21 13:44:04.283 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin|User)
+2025-08-21 13:44:04.290 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-08-21 13:44:04.291 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 401 0 null 108.9302ms
+2025-08-21 13:44:30.555 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 183
+2025-08-21 13:44:30.555 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:44:30.606 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-08-21 13:44:30.611 +03:00 [INF] Route matched with {action = "SendTelegramMessage", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendTelegramMessage(ErrSendApplication.DTO.TelegramMessageRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-21 13:44:30.626 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) - Validation state: "Valid"
+2025-08-21 13:44:30.634 +03:00 [INF] Запити: SendTelegramMessageCommand --- {"Request":{"Message":"Тестове повідомлення","AdditionalInfo":"Це тестове повідомлення на коректність роботи сервісу!","$type":"TelegramMessageRequest"},"$type":"SendTelegramMessageCommand"} 
+2025-08-21 13:44:30.690 +03:00 [INF] Start processing HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-08-21 13:44:30.691 +03:00 [INF] Sending HTTP request POST https://api.telegram.org/bot7304978265:AAElTsUzlb8XRX4TCnJZpEa8IfXl6oa4vjc/sendMessage
+2025-08-21 13:44:31.156 +03:00 [INF] Received HTTP response headers after 460.2676ms - 200
+2025-08-21 13:44:31.157 +03:00 [INF] End processing HTTP request after 469.8409ms - 200
+2025-08-21 13:44:31.161 +03:00 [INF] Telegram message sent. ChatId: -4795023420, Length: 188
+2025-08-21 13:44:31.164 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 537.4998ms.
+2025-08-21 13:44:31.169 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-08-21 13:44:31.183 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) in 571.3488ms
+2025-08-21 13:44:31.184 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-08-21 13:44:31.191 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 200 null application/json; charset=utf-8 635.9503ms
+2025-08-21 13:45:34.953 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - application/json 45
+2025-08-21 13:45:34.954 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:45:34.956 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-08-21 13:45:34.957 +03:00 [INF] Route matched with {action = "SendTelegramMessage", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] SendTelegramMessage(ErrSendApplication.DTO.TelegramMessageRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-21 13:45:34.971 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-08-21 13:45:34.996 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi) in 39.1496ms
+2025-08-21 13:45:34.996 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.SendTelegramMessage (ErrSendWebApi)'
+2025-08-21 13:45:34.996 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/SendTelegramMessage/Відправка тестового повідомлення в Telegram - 400 null application/problem+json; charset=utf-8 42.8782ms
+2025-08-21 13:45:58.648 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 73
+2025-08-21 13:45:58.648 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:45:58.649 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:45:58.649 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-21 13:45:58.650 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-08-21 13:45:58.651 +03:00 [INF] Запити: GenerateJwtTokenCommand --- {"Login":"User","Password":"Pass","Roles":["Admin"],"$type":"GenerateJwtTokenCommand"} 
+2025-08-21 13:45:58.652 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.4007ms.
+2025-08-21 13:45:58.653 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-08-21 13:45:58.653 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 3.6817ms
+2025-08-21 13:45:58.653 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:45:58.653 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 4.9508ms
+2025-08-21 13:46:03.587 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/index.html - null null
+2025-08-21 13:46:03.587 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/index.html - 200 null text/html;charset=utf-8 0.5773ms
+2025-08-21 13:46:03.610 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - null null
+2025-08-21 13:46:03.610 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css - 404 0 null 0.5305ms
+2025-08-21 13:46:03.611 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5001/swagger/Ui/theme-feeling-blue.css, Response status code: 404
+2025-08-21 13:46:03.889 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-08-21 13:46:03.900 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.7075ms
+2025-08-21 13:46:22.578 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - application/json 73
+2025-08-21 13:46:22.578 +03:00 [INF] CORS policy execution successful.
+2025-08-21 13:46:22.578 +03:00 [INF] Executing endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:46:22.579 +03:00 [INF] Route matched with {action = "GetJwtToken", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetJwtToken(ErrSendApplication.DTO.JwtTokenRequest) on controller ErrSendWebApi.Controllers.TestController (ErrSendWebApi).
+2025-08-21 13:46:22.579 +03:00 [INF] Executing action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) - Validation state: "Valid"
+2025-08-21 13:46:22.580 +03:00 [INF] Запити: GenerateJwtTokenCommand --- {"Login":"User","Password":"Pass","Roles":["Admin"],"$type":"GenerateJwtTokenCommand"} 
+2025-08-21 13:46:22.581 +03:00 [INF] Executed action method ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.5321ms.
+2025-08-21 13:46:22.581 +03:00 [INF] Executing OkObjectResult, writing value of type 'ErrSendApplication.DTO.JwtTokenResponse'.
+2025-08-21 13:46:22.582 +03:00 [INF] Executed action ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi) in 2.6753ms
+2025-08-21 13:46:22.582 +03:00 [INF] Executed endpoint 'ErrSendWebApi.Controllers.TestController.GetJwtToken (ErrSendWebApi)'
+2025-08-21 13:46:22.582 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5001/api/Test/GetJwtToken/JWT Токен - 200 null application/json; charset=utf-8 3.6848ms

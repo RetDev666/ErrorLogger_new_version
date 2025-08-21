@@ -1,5 +1,4 @@
 ﻿using ErrSendApplication;
-using ErrSendApplication.Mappings;
 using ErrSendPersistensTelegram;
 using ErrSendWebApi.ExceptionMidlevare;
 using ErrSendWebApi.Middleware.Culture;
@@ -12,9 +11,11 @@ using ErrSendApplication.Interfaces.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using ErrSendApplication.Mappings;
 using ErrSendWebApi.TimeZone;
 using FluentValidation;
 using ErrSendWebApi.Validators;
+using FluentValidation.AspNetCore;
 
 namespace ErrSendWebApi
 {
@@ -45,10 +46,14 @@ namespace ErrSendWebApi
             services.AddApplication(Configuration);
             services.AddPersistenceTelegram(Configuration);
             
-            // Реєструємо FluentValidation валідатори
-            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
-            
-            services.AddControllers();
+            services
+                .AddControllers()
+                .AddFluentValidation(fv =>
+                {
+                    fv.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+                });
+            services.AddFluentValidationAutoValidation();
+            services.AddFluentValidationClientsideAdapters();
             
 
             services.AddCors(options =>

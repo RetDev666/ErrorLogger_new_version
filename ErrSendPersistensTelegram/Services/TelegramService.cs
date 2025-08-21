@@ -96,16 +96,10 @@ namespace ErrSendPersistensTelegram.Services
             sb.AppendLine($"⏰ <b>Час:</b> {DateTime.Now:dd.MM.yyyy HH:mm:ss}");
             sb.AppendLine($"❌ <b>Помилка:</b> {System.Net.WebUtility.HtmlEncode(errorMessage)}");
 
-            // Перевірка довжини additionalInfo (0..1000) та непорожності
             if (!string.IsNullOrWhiteSpace(additionalInfo))
             {
-                var trimmed = additionalInfo.Trim();
-                if (trimmed.Length <= 1000)
-                {
-                    // Декодуємо, якщо раптом прийшов URL-encoded текст
-                    var decodedInfo = System.Net.WebUtility.UrlDecode(trimmed);
-                    sb.AppendLine($"ℹ️ <b>Додаткова інформація:</b> {System.Net.WebUtility.HtmlEncode(decodedInfo)}");
-                }
+                var decodedInfo = System.Net.WebUtility.UrlDecode(additionalInfo.Trim());
+                sb.AppendLine($"ℹ️ <b>Додаткова інформація:</b> {System.Net.WebUtility.HtmlEncode(decodedInfo)}");
             }
 
             return sb.ToString();

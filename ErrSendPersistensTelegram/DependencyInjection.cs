@@ -29,8 +29,7 @@ namespace ErrSendPersistensTelegram
                                 client.BaseAddress = new Uri(serverUrl);
                             });
 
-            // Реєструємо IValidator для HttpClient запитів, якщо ще не зареєстрований
-            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+            // Валідатори вже зареєстровані вище, повторна реєстрація не потрібна
 
             // Перевизначаємо фабрику для Typed Client, щоб передати валідатор у конструктор
             services.AddTransient<IHttpClientWr>(sp =>

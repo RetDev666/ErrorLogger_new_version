@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4zRlqyrTMdk=",
+  "dgSpecHash": "JEgnqy64tnI=",
   "success": true,
   "projectFilePath": "/Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/ErrSendWebApi.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "/Users/mac/.nuget/packages/documentformat.openxml/3.3.0/documentformat.openxml.3.3.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/documentformat.openxml.framework/3.3.0/documentformat.openxml.framework.3.3.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
+    "/Users/mac/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.1/fluentvalidation.dependencyinjectionextensions.11.9.1.nupkg.sha512",
     "/Users/mac/.nuget/packages/hostbuilderutils.prebuildserviceprovider/1.0.0/hostbuilderutils.prebuildserviceprovider.1.0.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/kastlewall.encryption/3.2.0/kastlewall.encryption.3.2.0.nupkg.sha512",
