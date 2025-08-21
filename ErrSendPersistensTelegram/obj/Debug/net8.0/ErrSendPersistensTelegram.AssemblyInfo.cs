@@ -10,10 +10,12 @@
 using System;
 using System.Reflection;
 
+[assembly: Xunit.TestFramework("Xunit.DependencyInjection.DependencyInjectionTestFramework", "Xunit.DependencyInjection")]
+[assembly: Xunit.DependencyInjection.StartupType("ErrSendPersistensTelegram.Startup")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ErrSendPersistensTelegram")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adb52785f42e737511983fb5b040b239722bb645")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1894a233ef044cb963173f20feb3db86d816256")]
 [assembly: System.Reflection.AssemblyProductAttribute("ErrSendPersistensTelegram")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ErrSendPersistensTelegram")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

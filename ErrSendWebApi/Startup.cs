@@ -14,6 +14,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using ErrSendWebApi.TimeZone;
 using FluentValidation;
+using ErrSendWebApi.Validators;
 
 namespace ErrSendWebApi
 {
@@ -21,9 +22,16 @@ namespace ErrSendWebApi
     {
         public IConfiguration Configuration { get; }
 
-        public Startup(IConfiguration configuration)
+        public Startup()
         {
-            Configuration = configuration;
+            var environmentName = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Production";
+            var basePath = Directory.GetCurrentDirectory();
+            Configuration = new ConfigurationBuilder()
+                .SetBasePath(basePath)
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{environmentName}.json", optional: true, reloadOnChange: true)
+                .AddEnvironmentVariables()
+                .Build();
         }
 
         public void ConfigureServices(IServiceCollection services)
@@ -61,8 +69,7 @@ namespace ErrSendWebApi
                     Description = "Error Sender API"
                 });
                 
-                // Реєструємо OperationFilter з валідатором
-                var operationFilter = services.BuildServiceProvider().GetRequiredService<AddTimeAndTimeZoneOperationFilter>();
+                // Реєструємо OperationFilter через DI (конструкторні залежності будуть резолвитися автоматично)
                 c.OperationFilter<AddTimeAndTimeZoneOperationFilter>();
                 
                 // Додаємо підтримку JWT Bearer авторизації
@@ -90,9 +97,12 @@ namespace ErrSendWebApi
                     }
                 });
             });
+            // Зареєструємо залежності, які потрібні для OperationFilter
+            services.AddTransient<IValidator<(OpenApiOperation operation, string responseKey, string contentType)>, OperationFilterValidator>();
+            services.AddTransient<AddTimeAndTimeZoneOperationFilter>();
             services.AddSingleton<ICurrentService, CurrentService>();
             services.AddHttpContextAccessor();
-            var jwtConfig = Configuration.GetSection("JwtConfig").Get<ErrSendApplication.Common.Configs.JwtConfig>();
+            var jwtConfig = services.BuildServiceProvider().GetRequiredService<ErrSendApplication.Common.Configs.JwtConfig>();
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

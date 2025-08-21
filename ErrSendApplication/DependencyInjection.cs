@@ -25,7 +25,7 @@ namespace ErrSendApplication
             var envSecret = Environment.GetEnvironmentVariable("JWT_SECRET");
             
             // Валідація через FluentValidation замість ручних перевірок
-            var envValidator = services.BuildServiceProvider().GetRequiredService<IValidator<(string? envSecret, string configSecret, int configLength)>>();
+            var envValidator = new Validators.EnvironmentConfigValidator();
             
             // Валідація envSecret через FluentValidation
             if (envSecret != null)
@@ -49,10 +49,22 @@ namespace ErrSendApplication
                 jwtConfig.Secret = Convert.ToBase64String(bytes);
             }
             
+            // Попередньо валідовуємо JwtConfig власним інстансом валідатора, щоб не тягнути scoped залежності у singleton
+            var jwtConfigValidator = new Validators.JwtConfigValidator();
+            var jwtConfigValidationResult = jwtConfigValidator.Validate(jwtConfig);
+            if (!jwtConfigValidationResult.IsValid)
+            {
+                var bytes = new byte[32];
+                using (var rng = RandomNumberGenerator.Create())
+                {
+                    rng.GetBytes(bytes);
+                }
+                jwtConfig.Secret = Convert.ToBase64String(bytes);
+            }
+
             services.AddSingleton(jwtConfig);
-            services.AddSingleton<IJwtTokenService>(provider =>
-                new JwtTokenService(jwtConfig.Secret, jwtConfig.ExpiryMinutes, 
-                    provider.GetRequiredService<IValidator<JwtConfig>>()));
+            services.AddSingleton<IJwtTokenService>(_ =>
+                new JwtTokenService(jwtConfig.Secret, jwtConfig.ExpiryMinutes, jwtConfigValidator));
 
             return services;
         }

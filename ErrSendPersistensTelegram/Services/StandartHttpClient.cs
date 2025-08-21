@@ -1,7 +1,6 @@
 ﻿using System.Net.Http.Headers;
 using ErrSendApplication.Interfaces.Client;
 using FluentValidation;
-using ErrSendApplication.Validators;
 
 namespace ErrSendPersistensTelegram.Services
 {

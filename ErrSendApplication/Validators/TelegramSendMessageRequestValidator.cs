@@ -17,7 +17,8 @@ namespace ErrSendApplication.Validators
                     .MaximumLength(4096).WithMessage("Текст повідомлення занадто довгий (максимум 4096 символів)");
 
                 RuleFor(x => x.ParseMode)
-                    .IsInEnum().WithMessage("Parse Mode має бути валідним значенням");
+                    .Must(v => v == "HTML" || v == "Markdown" || v == "MarkdownV2")
+                    .WithMessage("Parse Mode має бути одним із: HTML, Markdown, MarkdownV2");
             }
             catch (Exception ex)
             {

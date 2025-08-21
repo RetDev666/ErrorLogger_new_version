@@ -156,3 +156,12 @@
 /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/obj/Debug/net8.0/ref/ErrSendWebApi.dll
 /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/obj/Debug/net8.0/ErrSendWebApi.sourcelink.json
 /Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/KastleWall.Security.dll
+/Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/HostBuilderUtils.PreBuildServiceProvider.dll
+/Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/Validation.dll
+/Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/xunit.abstractions.dll
+/Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/Xunit.DependencyInjection.dll
+/Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/Xunit.DependencyInjection.SkippableFact.dll
+/Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/xunit.core.dll
+/Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/xunit.execution.dotnet.dll
+/Users/mac/Downloads/ErrorSender_v1/ErrSendWebApi/bin/Debug/net8.0/Xunit.SkippableFact.dll

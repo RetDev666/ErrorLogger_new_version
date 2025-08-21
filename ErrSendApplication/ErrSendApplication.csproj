@@ -19,6 +19,7 @@
     <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="FluentValidation" Version="11.9.1" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.1" />
+    <PackageReference Include="HostBuilderUtils.PreBuildServiceProvider" Version="1.0.0" />
     <PackageReference Include="KastleWall.Encryption" Version="3.2.0" />
     <PackageReference Include="MediatR" Version="12.5.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
@@ -26,6 +27,7 @@
     <PackageReference Include="Serilog" Version="4.2.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.10.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.0" />
+    <PackageReference Include="Xunit.DependencyInjection.SkippableFact" Version="9.0.0" />
   </ItemGroup>
 
 </Project>

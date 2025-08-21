@@ -4,22 +4,16 @@ using System.Net;
 using System.Text.Json;
 using ErrSendApplication.Interfaces.Telegram;
 using FluentValidation;
-using ErrSendWebApi.Validators;
 
 namespace ErrSendWebApi.ExceptionMidlevare
 {
     public class CustomExceptionHandlerMiddleware
     {
         private readonly RequestDelegate next;
-        private readonly ITelegramService telegramService;
-        private readonly IValidator<(HttpContext context, Exception exception, HttpStatusCode statusCode)> validator;
 
-        public CustomExceptionHandlerMiddleware(RequestDelegate next, ITelegramService telegramService, 
-            IValidator<(HttpContext context, Exception exception, HttpStatusCode statusCode)> validator)
+        public CustomExceptionHandlerMiddleware(RequestDelegate next)
         {
             this.next = next;
-            this.telegramService = telegramService;
-            this.validator = validator;
         }
 
         public async Task Invoke(HttpContext context)
@@ -41,6 +35,7 @@ namespace ErrSendWebApi.ExceptionMidlevare
             string additionalInfo = $"Path: {context.Request.Path}, Method: {context.Request.Method}, IP: {context.Connection.RemoteIpAddress}";
 
             // Валідація параметрів через FluentValidation
+            var validator = context.RequestServices.GetRequiredService<IValidator<(HttpContext context, Exception exception, HttpStatusCode statusCode)>>();
             var validationResult = validator.Validate((context, exception, code));
             if (!validationResult.IsValid)
             {
@@ -64,6 +59,7 @@ namespace ErrSendWebApi.ExceptionMidlevare
                     default:
                         code = HttpStatusCode.InternalServerError;
                         exStat.Errors.Add("Внутрішня помилка сервера");
+                        var telegramService = context.RequestServices.GetRequiredService<ITelegramService>();
                         await telegramService.SendErrorMessageAsync(exception.Message, additionalInfo);
                         break;
                 }

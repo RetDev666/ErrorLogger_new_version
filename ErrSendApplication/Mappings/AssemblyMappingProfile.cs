@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using System.Reflection;
 using ErrSendApplication.Interfaces.Mapping;
 
@@ -26,3 +26,5 @@ namespace ErrSendApplication.Mappings
         }
     }
 }
+
+

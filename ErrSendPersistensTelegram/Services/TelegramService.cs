@@ -6,6 +6,7 @@ using ErrSendApplication.Interfaces.Client;
 using ErrSendApplication.Interfaces.Telegram;
 using FluentValidation;
 using ErrSendApplication.Validators;
+using Microsoft.Extensions.Logging;
 
 namespace ErrSendPersistensTelegram.Services
 {
@@ -19,17 +20,20 @@ namespace ErrSendPersistensTelegram.Services
         private readonly TelegramConfig telegramConfig;
         private readonly IValidator<(string errorMessage, string? additionalInfo, TelegramConfig config)> validator;
         private readonly IValidator<TelegramSendMessageRequestValidator.TelegramSendMessageRequest> messageValidator;
+        private readonly ILogger<TelegramService> logger;
 
         public TelegramService(
             IHttpClientWr httpClient, 
             IOptions<TelegramConfig> telegramConfig,
             IValidator<(string errorMessage, string? additionalInfo, TelegramConfig config)> validator,
-            IValidator<TelegramSendMessageRequestValidator.TelegramSendMessageRequest> messageValidator)
+            IValidator<TelegramSendMessageRequestValidator.TelegramSendMessageRequest> messageValidator,
+            ILogger<TelegramService> logger)
         {
             this.httpClient = httpClient;
             this.telegramConfig = telegramConfig.Value;
             this.validator = validator;
             this.messageValidator = messageValidator;
+            this.logger = logger;
         }
 
         public async Task SendErrorMessageAsync(string errorMessage, string? additionalInfo = null)
@@ -67,11 +71,21 @@ namespace ErrSendPersistensTelegram.Services
                 var jsonPayload = JsonSerializer.Serialize(payload);
 
                 var content = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
-                await httpClient.PostAsync(url, content);
+                var response = await httpClient.PostAsync(url, content);
+                if (!response.IsSuccessStatusCode)
+                {
+                    string respBody = string.Empty;
+                    try { respBody = await response.Content.ReadAsStringAsync(); } catch { }
+                    logger.LogWarning("Telegram send failed. Status: {StatusCode}, Body: {Body}", (int)response.StatusCode, respBody);
+                }
+                else
+                {
+                    logger.LogInformation("Telegram message sent. ChatId: {ChatId}, Length: {Length}", telegramConfig.ChatId, message.Length);
+                }
             }
-            catch
+            catch (Exception ex)
             {
-                // Ігноруємо помилки
+                logger.LogError(ex, "Telegram send exception");
             }
         }
 
@@ -82,16 +96,14 @@ namespace ErrSendPersistensTelegram.Services
             sb.AppendLine($"⏰ <b>Час:</b> {DateTime.Now:dd.MM.yyyy HH:mm:ss}");
             sb.AppendLine($"❌ <b>Помилка:</b> {System.Net.WebUtility.HtmlEncode(errorMessage)}");
 
-            // Валідація additionalInfo через FluentValidation
-            if (additionalInfo != null)
+            // Перевірка довжини additionalInfo (0..1000) та непорожності
+            if (!string.IsNullOrWhiteSpace(additionalInfo))
             {
-                var additionalInfoValidator = new FluentValidation.Validators.LengthValidator(0, 1000);
-                var validationResult = additionalInfoValidator.Validate(additionalInfo);
-                
-                if (validationResult.IsValid && !string.IsNullOrWhiteSpace(additionalInfo))
+                var trimmed = additionalInfo.Trim();
+                if (trimmed.Length <= 1000)
                 {
                     // Декодуємо, якщо раптом прийшов URL-encoded текст
-                    var decodedInfo = System.Net.WebUtility.UrlDecode(additionalInfo);
+                    var decodedInfo = System.Net.WebUtility.UrlDecode(trimmed);
                     sb.AppendLine($"ℹ️ <b>Додаткова інформація:</b> {System.Net.WebUtility.HtmlEncode(decodedInfo)}");
                 }
             }

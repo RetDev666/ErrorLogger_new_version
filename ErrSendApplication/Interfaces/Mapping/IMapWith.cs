@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 
 namespace ErrSendApplication.Interfaces.Mapping
 {
@@ -10,3 +10,5 @@ namespace ErrSendApplication.Interfaces.Mapping
         }
     }
 }
+
+

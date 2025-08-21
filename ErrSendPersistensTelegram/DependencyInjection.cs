@@ -27,12 +27,19 @@ namespace ErrSendPersistensTelegram
                             {
                                 var serverUrl = configuration.GetValue<string>("serverUrl") ?? "http://localhost:5001/";
                                 client.BaseAddress = new Uri(serverUrl);
-                            })
-                            .AddTypedClient((services, provider) =>
-                            {
-                                var validator = provider.GetRequiredService<IValidator<(string url, HttpContent content, string? token)>>();
-                                return new StandartHttpClient(provider.GetRequiredService<HttpClient>(), validator);
                             });
+
+            // Реєструємо IValidator для HttpClient запитів, якщо ще не зареєстрований
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+
+            // Перевизначаємо фабрику для Typed Client, щоб передати валідатор у конструктор
+            services.AddTransient<IHttpClientWr>(sp =>
+            {
+                var httpClientFactory = sp.GetRequiredService<IHttpClientFactory>();
+                var httpClient = httpClientFactory.CreateClient(typeof(StandartHttpClient).FullName!);
+                var validator = sp.GetRequiredService<IValidator<(string url, HttpContent content, string? token)>>();
+                return new StandartHttpClient(httpClient, validator);
+            });
 
             services.AddTransient<ITelegramService, TelegramService>();
 

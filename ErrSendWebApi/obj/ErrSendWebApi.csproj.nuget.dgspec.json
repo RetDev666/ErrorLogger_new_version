@@ -121,6 +121,10 @@
               "target": "Package",
               "version": "[11.9.1, )"
             },
+            "HostBuilderUtils.PreBuildServiceProvider": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "KastleWall.Encryption": {
               "target": "Package",
               "version": "[3.2.0, )"
@@ -148,6 +152,10 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.10.0, )"
+            },
+            "Xunit.DependencyInjection.SkippableFact": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
